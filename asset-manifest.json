@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tarikc.net/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/tarikc.net/static/js/main.a1c3a96e.chunk.js",
-    "main.js.map": "/tarikc.net/static/js/main.a1c3a96e.chunk.js.map",
+    "main.js": "/tarikc.net/static/js/main.1f876f67.chunk.js",
+    "main.js.map": "/tarikc.net/static/js/main.1f876f67.chunk.js.map",
     "runtime-main.js": "/tarikc.net/static/js/runtime-main.3d89ddf8.js",
     "runtime-main.js.map": "/tarikc.net/static/js/runtime-main.3d89ddf8.js.map",
     "static/js/2.1d7f621f.chunk.js": "/tarikc.net/static/js/2.1d7f621f.chunk.js",
     "static/js/2.1d7f621f.chunk.js.map": "/tarikc.net/static/js/2.1d7f621f.chunk.js.map",
     "index.html": "/tarikc.net/index.html",
-    "precache-manifest.5f2a8ea91430c0732d2d419bd1b16c37.js": "/tarikc.net/precache-manifest.5f2a8ea91430c0732d2d419bd1b16c37.js",
+    "precache-manifest.bc04db44750073dec71d85ac8b903450.js": "/tarikc.net/precache-manifest.bc04db44750073dec71d85ac8b903450.js",
     "service-worker.js": "/tarikc.net/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/tarikc.net/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.1d7f621f.chunk.js.LICENSE.txt": "/tarikc.net/static/js/2.1d7f621f.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3d89ddf8.js",
     "static/js/2.1d7f621f.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.a1c3a96e.chunk.js"
+    "static/js/main.1f876f67.chunk.js"
   ]
 }
