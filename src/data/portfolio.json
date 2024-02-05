@@ -1,15 +1,13 @@
 {
   "basics": {
-    "name": "Tarik Crnovrsanin",
-    "picture": "https://avatars0.githubusercontent.com/u/58340587?v=4",
+    "name": "Dr. Tarik Crnovrsanin",
+    "picture": "CrnovrsaninTarik_Northeastern_Photo.jpg",
     "label": "",
     "headline": "",
-    "summary": "I am a PostDoc with Cody Dunne at Data Visualization at Khoury of Northeastern University. My research focuses on visualizations, techniques, and systems for a range of datasets, including static and dynamic networks, radio signals, and fire data. \n\nMy enjoyment of learning and conducting research extends beyond my graduate career. I combine my love of research and 5+ years of FDM printing to develop new flinging foam methods. I 3D design and engineer products from concept to full production.  I also utilize my visualization skills to create interfaces that allow customers to customize and view their purchases live on the web. ",
+    "summary": "I am a Senior Software engineer and previously a PostDoc with Cody Dunne at Data Visualization at Khoury of Northeastern University. My research focuses on visualizations, techniques, and systems for various datasets, including static and dynamic networks, radio signals, and fire data. Currently, I'm an ORISE fellowship participant in explainable AI for drone detection. \n\nMy enjoyment of learning and conducting research extends beyond my graduate career. I combine my love of research and 7+ years of FDM printing to develop new flinging foam methods. I 3D design and engineer products from concept to full production. I also utilize my visualization skills to create better customer shopping experiences by providing UI to fully visualize/render and customize their purchases. ",
     "website": "https://tarikc.net",
-    "blog": "",
-    "yearsOfExperience": 5,
     "email": "",
-    "region": "Davis, California",
+    "region": "Boston, Massachusetts",
     "location": {},
     "phone": "",
     "profiles": [
@@ -78,6 +76,9 @@
         "entries": [
           {
             "title": "Coming soon",
+            "image": "JupiterOldvsNew.png",
+            "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
+            "tags":["CAD", "Fusion 360"],
             "html" : [
               { "p" : "Still under construction."}
             ]
@@ -85,56 +86,14 @@
         ]
       },
       {
-        "title": "3D design",
-        "summary" : "These are some of the 3D design projects I worked on as part of a hobby turned side business. These projects fulfill the same desire to conduct research that my graduate work provides. They allow me to apply my years of research and additive manufacture experience into a new domain.",
-        "entries": [
-          {
-            "title": "Jupiter",
-            "html" : [
-              { "p" : "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right."},
-              { "image":
-                {
-                  "src": "JupiterOldvsNew.png",
-                  "caption": "Figure A. Evolution of Jupiter. Prototype version on left and final version on the right.",
-                  "width" : 720
-                }
-              },
-              { "p" : "Beyond the visual enhancement, I implemented several Quality of Life improvements and additional features. Externally, I completely redesigned the body to hide all wire channels, improved the grip, added a battery tray, and provided a comfortable placement of the trigger finger.  Internally, some changes include ease of assembling and response trigger press.  I also replaced a friction-fit clip lock mechanism with a more durable ball detent style. For a complete look at the modification, please check out the video on the left, and Jupiter's hidden features can be found in the video on the right."},
-              [
-                { "video": {
-                  "src":"https://www.youtube.com/embed/nvSVqwGUw-E",
-                  "width": 374,
-                  "height": 210,
-                  "allow" : "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  }
-                },
-                { "video": {
-                  "src":"https://www.youtube.com/embed/A4QA7Ux4oYA",
-                  "width": 374,
-                  "height": 210,
-                  "allow" : "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  }
-                }
-              ],
-              { "p" : "The Jupiter has released to high praise and, as of the time of writing this, has over 2 million collective views. A review of the blaster can be found in the video below from one of the most popular Nerf channels."},
-              { "video": {
-                "src":"https://www.youtube.com/embed/Yv2yhSZJvL4",
-                "width": 374,
-                "height": 210,
-                "allow" : "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-
-                }
-              }
-            ] 
-          }
-        ]
-      },
-      {
-        "title": "Side Projects",
+        "title": "Web Projects",
         "summary" : "When I find the time (haha), I like to apply my visualization and programming skillset to some interesting side projects.",
         "entries": [
           {
             "title": "3D Color and Option Picker",
+            "image": "STLViewer.png",
+            "shortDesc": "3D printing's key strength lies in customer customization, allowing them to personalize products by selecting colors and components. However, many platforms lack the immediate visual representation of these choices, leaving users uncertain about their selections. To address this, I developed the STL Viewer and menu system, enabling real-time updates of 3D printed files to showcase customers' chosen colors and components.",
+            "tags":["JS", "Shopify", "Three.js"],
             "html" : [
               { "p" : "One of the major strengths of 3D printing is the ability for the customers to customize their product by changing the color of the parts or choosing from a set of components to fit their style and personality.  Though most sites offer the ability to customize the user's purchase selection, they do not provide the means for the user to visually see their choice immediately.  There are so many possible parts and color choices that it is unreasonable for every permutation to be photographed. The lack of immediate feedback can leave the user unsure how particular color and parts combinations will look. Therefore, I created the STL Viewer and menu system that loads 3D printed files and updates them based on the customer's colors and choices in real-time."},
               { "image":
@@ -163,6 +122,9 @@
           },
           {
             "title": "Menu Creator",
+            "image": "MenuCreator.png",
+            "shortDesc": "Innovation in design can trigger a cascade of effects. While the above menu system enhances customer product customization, it unintentionally complicates the menu creation process. JSON files, though commonly used for data, pose a challenge for individuals without specific training. To address this, I introduce the Menu Creator tool, simplifying and standardizing the construction of JSON files.",
+            "tags":["JS", "React"],
             "html" : [
               { "p" : "As with any design, one innovation can cause a cascading effect. The menu system shown above is great for the customers as it provides more customization of products. An unintended by-product of such a design is the act of creating said menu system becomes more complicated. Though JSON files are a common format for passing data, they are not intuitive to construct, especially for an average individual lacking training in creating such listings. To combat this issue and standardize the JSON file's construct, we create a Menu Creator tool."},
               { "image":
@@ -190,130 +152,416 @@
             ]
           }
         ]
+      },
+      {
+        "title": "3D design",
+        "summary" : "These are some of the 3D design projects I worked on as part of a hobby turned side business. These projects fulfill the same desire to conduct research that my graduate work provides. They allow me to apply my years of research and additive manufacture experience into a new domain.",
+        "entries": [
+          {
+            "title": "Jupiter",
+            "image": "JupiterOldvsNew.png",
+            "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
+            "tags":["CAD", "Fusion 360"],
+            "html" : [
+              { "p" : "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right."},
+              { "image":
+                {
+                  "src": "JupiterOldvsNew.png",
+                  "caption": "Figure A. Evolution of Jupiter. Prototype version on left and final version on the right.",
+                  "width" : 720
+                }
+              },
+              { "p" : "Beyond the visual enhancement, I implemented several Quality of Life improvements and additional features. Externally, I completely redesigned the body to hide all wire channels, improved the grip, added a battery tray, and provided a comfortable placement of the trigger finger.  Internally, some changes include ease of assembling and response trigger press.  I also replaced a friction-fit clip lock mechanism with a more durable ball detent style. For a complete look at the modification, please check out the video on the left, and Jupiter's hidden features can be found in the video on the right."},
+              [
+                { "video": {
+                  "src":"https://www.youtube.com/embed/nvSVqwGUw-E",
+                  "height": 210,
+                  "allow" : "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  }
+                },
+                { "video": {
+                  "src":"https://www.youtube.com/embed/A4QA7Ux4oYA",
+                  "height": 210,
+                  "allow" : "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  }
+                }
+              ],
+              { "p" : "The Jupiter has released to high praise and, as of the time of writing this, has over 2 million collective views. A review of the blaster can be found in the video below from one of the most popular Nerf channels."},
+              { "video": {
+                "src":"https://www.youtube.com/embed/Yv2yhSZJvL4",
+                "width": 374,
+                "height": 210,
+                "allow" : "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+
+                }
+              }
+            ] 
+          }
+        ]
       }
     ],
   "publications": {
     "journal" : [
       {
-        "title": "Concise provenance of interactive network analysis",
-        "authors":"Fujiwara T., Crnovrsanin, T., and Ma KL.",
-        "venue": "Visual Informatics 2(4), pp. 213--224, ",
+        "title": "Investigating the visual utility of differentially private scatterplots",
+        "year": "2023",
+        "authors": [
+          "Liudas Panavas",
+          "Tarik Crnovrsanin",
+          "Jane Lydia Adams",
+          "Jonathan Ullman",
+          "Ali Sargavad",
+          "Melanie Tory",
+          "Cody Dunne"
+        ],
+        "venue": "IEEE Transactions on Visualization and Computer Graphics—TVCG",
+        "abstract": "Increasingly, visualization practitioners are working with, using, and studying private and sensitive data. There can be many stakeholders interested in the resulting analyses-but widespread sharing of the data can cause harm to individuals, companies, and organizations. Practitioners are increasingly turning to differential privacy to enable public data sharing with a guaranteed amount of privacy. Differential privacy algorithms do this by aggregating data statistics with noise, and this now-private data can be released visually with differentially private scatterplots. While the private visual output is affected by the algorithm choice, privacy level, bin number, data distribution, and user task, there is little guidance on how to choose and balance the effect of these parameters. To address this gap, we had experts examine 1,200 differentially private scatterplots created with a variety of parameter choices and tested their ability to see aggregate patterns in the private output (i.e. the visual utility of the chart). We synthesized these results to provide easy-to-use guidance for visualization practitioners releasing private data through scatterplots. Our findings also provide a ground truth for visual utility, which we use to benchmark automated utility metrics from various fields. We demonstrate how multi-scale structural similarity (MS-SSIM), the metric most strongly correlated with our study's utility results, can be used to optimize parameter selection. A free copy of this paper along with all supplemental materials is available at <a href=\"https://osf.io/wej4s/\">osf.io/wej4s</a>.",
+        "teaserImg": "Panavas2023InvestigatingVisualUtility.png",
+        "image": "Panavas2023InvestigatingVisualUtility.png",
+        "imageDesc": "Based on expert examination of 1,200 differentially private scatterplots created using various parameter choices, we provide easy-to-use guidance for visualization practitiioners releasing private data. These charts illustrate how our results can be used to to create an optimal differentially private scatterplot.",
+        "altText": "Illustration of an original scatterplot, how educated parameter choices affect the differentially private visualization, then how optimizing bin sizes affects visual utility, then how color scale optimization can play a role, then the final scatterplot.",
+        "materials": {
+          "PDF": "https://osf.io/b5zvn/download",
+          "Preprint": "https://osf.io/b5zvn/",
+          "DOI": "https://doi.org/10.1109/TVCG.2023.3292391",
+          "Supplement": "https://osf.io/wej4s/",
+          "Preregistration": "https://osf.io/25xhn",
+          "Code": "https://github.com/VisDunneRight/Privacy-Plot-Viewer"
+        }
+      },
+      {
+        "title": "Concise Provenance of Interactive Network Analysis",
+        "authors": ["Takanori Fujiwara", "Tarik Crnovrsanin", "Kwan-Liu Ma"],
+        "venue": "Visual Informatics 2(4), pp. 213--224",
         "year":"2018",
         "url" : "https://www.sciencedirect.com/science/article/pii/S2468502X1830055X",
-        "video" : "https://youtu.be/u_kq2-pd8u0",
-        "supplement" : "https://takanori-fujiwara.github.io/s/prov-vis/index.html",
-        "image": "concise.png"
+        "image": "concise.png",
+        "materials": {
+          "PDF": "https://pdf.sciencedirectassets.com/315710/1-s2.0-S2468502X19X00029/1-s2.0-S2468502X1830055X/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECgaCXVzLWVhc3QtMSJHMEUCIQDB2Z9%2BdZA51XDp1MU7OoEbg1jhUoawlqCVwLvazAWZwQIgGxxg3mQD%2F31ghJ3aE45tobyxHhy3Y8NukuemHC%2BGk5cqvAUI4P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgwwNTkwMDM1NDY4NjUiDLoQ0goZ25rMwlg6eiqQBdi1oRlqBn3yP2ESQmXCYWh1NqUewfTjG1XWAzHhD3zzrpCaw1JihNeAuVWm0Arctz%2BBzA%2BFEqOc0NqUn8AzYX3KDM2VGMDGuIlIE57dK7IX%2FZF7KTm2J2%2FOmcHaozanaKhSVxUOappxfCcPnl0LdSQSEXPhcMRAM3Yum2Do2MGpUZ0Hy8y8J9qLe1KncvwkSG88PMdbPFGtSgW0xzr2%2Byxo4o8gP0yfvAosg08Cq0W93M7er3c1ymR7P1ufW3QrPzMwxNAdSu8MnkSPwrVH2PNP4Ou0gmoPTBHc5ph7Xpn2ZNBfLzxQqdXPJaOekHibdHTA7NAdls6aqQ1wdO7kIUi%2FhbDuJluMFne7QFRt%2FI2rPXbDNSKC3Yv1YtvSqcEox%2Fqg4CvUyfCrG6ZLUfrAZs3aXA11qWMrvzIRFjxAWnpi43bnmxNe%2Bhl6KmnaRKM5JUjTTPuTeZ96ctXOVZ6ukxyJqPiq2LVcP21J9s8kdLSVaD1on3rIMWPOHwuW1aJkIB6thp5adrGwl5%2Bc%2Frka0Qu%2FNtW8e6UixepuZVMYwWhAesA4u5SvtfcMVpaRjl7ZptJ1N4t4noncWLk%2FgNohJkfCEWkIYMZ%2BVcf4cCjaHtNy%2FT1aXacsXth%2Fp29kDO%2B6FHxqZFm4pj2RKGO2S4AlR7zxPAkqwGsdefj%2FkH9m8Xij9uNXoO4X%2FbH1QxAWTBD9WGPIThn2FoWNUV7JrahIRisbhI1cQmA%2BAbEE%2F2hE5euvLU5mgqtZWwpWNxREVO3G3mqTX42n4v1bwNgoCBVEAK1izfmGq%2F6w3pG9%2FgeFZZQ%2B6zLuwcAItCaPcM8RBXvzhRjwFAroAp2Tr5XJ7EIPBcnLTZyq5yi%2FVVAsEPVrYUciMMW9260GOrEBkS1riFaAUU5r4gwEEGr0fQMAFjlL5M2LXBZM1r3xqj6JV6SOqIQdWlFfjmKVeLSqeynVm4sRMIcs%2BUAVD9fWoeaH9oKJSEodzFX0AVEgljwmRBG21MXz4yesfq5Kw8Ouh2zR4gOMCtdRnT3VgaFt%2B%2Fz63Q89TbLUaPBiIo9SlENTc%2BxUGdp8dfESAeqhGDCUhpvBfJpqHeqG1lZVqg2VWt41m3AT%2F%2BNMV%2FLPvogHrWEQ&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240129T000146Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYRV2YN76X%2F20240129%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=971b4d4825082005757b00c0fd5427ee00c8ca1b978b3ac2239c8abedf1bd22a&hash=41096012d72250f872f05665112ccb0624524162830dd6d6d47efd45184af1d9&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S2468502X1830055X&tid=spdf-cf08df02-0e56-4f06-8e30-2917859f4907&sid=cfcdf5324fce734f517b8c27252702c23d67gxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=17105d550505555d07&rr=84cd33dbc89f4d0b&cc=us",
+          "Preprint": "",
+          "DOI": "https://doi.org/10.1016/j.visinf.2018.12.002",
+          "Supplement": "https://takanori-fujiwara.github.io/s/prov-vis/index.html",
+          "Video Preview": "https://youtu.be/u_kq2-pd8u0"
+        }
       },
       {
         "title": "An Incremental Layout Method for Visualizing Online Dynamic Graphs",
-        "authors":"Crnovrsanin, T., Chu J., and Ma KL.",
-        "venue": "Journal Graph Algorithm Application (JGAA), 21(1), pp.55--80, ",
+        "authors":["Tarik Crnovrsanin", "Jacqueline Chu", "Kwan-Liu Ma"],
+        "venue": "Journal Graph Algorithm Application (JGAA), 21(1), pp.55--80",
         "year":"2017",
         "url" : "http://jgaa.info/accepted/2017/CrnovrsaninChuMa2017.21.1.pdf",
-        "image": "Incremental.png"
+        "image": "Incremental.png",
+        "materials": {
+          "PDF": "https://jgaa.info/accepted/2017/CrnovrsaninChuMa2017.21.1.pdf"
+        }
       },
       {
         "title": "Visualization Techniques for Categorical Analysis of Social Networks with Multiple Edge Sets",
-        "authors":"Crnovrsanin, T., Muelder C., Faris B., Felmlee D., and Ma KL.",
-        "venue": "Social Networks, vol. 37, pp. 56--64, ",
+        "authors":["Tarik Crnovrsanin", "Chris Muelder", "Bob Faris", "Diane Felmlee", "Kwan-Liu Ma"],
+        "venue": "Social Networks, vol. 37, pp. 56--64",
         "year":"2014",
         "url" : "https://www.sciencedirect.com/science/article/abs/pii/S0378873313001044",
-        "image": "SocialNetworks.png"
+        "image": "SocialNetworks.png",
+        "materials": {
+          "PDF": "https://www.sciencedirect.com/science/article/abs/pii/S0378873313001044",
+          "DOI": "https://doi.org/10.1016/j.socnet.2013.12.002"
+        }
       },
       {
         "title": "Visual Reasoning about Social Networks using Centrality Sensitivities",
-        "authors":"Correa C., Crnovrsanin, T., and Ma KL.",
-        "venue": "IEEE Transactions Visualization Computer Graph(TVCG), vol. 18, pp. 106--120, ",
+        "authors":["Carlos D. Correa", "Tarik Crnovrsanin", "Kwan-Liu Ma"],
+        "venue": "IEEE Transactions Visualization Computer Graph(TVCG), vol. 18, pp. 106--120",
         "year":"2012",
         "url" : "https://ieeexplore.ieee.org/document/5669304",
-        "image": "VisualReasoning.png"
+        "image": "VisualReasoning.png",
+        "materials": {
+          "PDF": "https://ieeexplore.ieee.org/document/5669304",
+          "Preprint": "http://www.carloscorrea.com/docs/tvcg2011.pdf",
+          "DOI": "https://doi.org/10.1109/tvcg.2010.260"
+        }
       }
     ],
     "conference":[
       {
+        "title": "Indy Survey Tool: A framework to unearth correlations in survey data",
+        "year": "2023",
+        "authors": [
+          "Tarik Crnovrsanin",
+          "Sara Di Bartolomeo",
+          "Connor Wilson",
+          "Cody Dunne"
+        ],
+        "venue": "In Proc. IEEE Visualization Conference—VIS",
+        "abstract": "Survey companion websites allow users to explore collected survey information more deeply, as well as update or add entries for papers. These sites can help information stay relevant past the original release date of the survey paper. However, creating and maintaining a website can be laborious and difficult, especially when authors might not be experienced with programming. We introduce Indy Survey Tool to help authors develop companion websites for survey papers across diverse fields of study. The tool's core aim is to identify correlations between categorizations of papers. To accomplish this, the tool offers multiple combined filters and correlation matrix visualizations that enable users to explore the data from diverse perspectives. The tool's visualizations, list of papers, and filters are harmoniously integrated and highly responsive, providing users with feedback based on their selections. Identifying correlations in survey papers is a pivotal aspect of research, as it can enable the recognition of common combinations of categorizations within the papers—as well as highlight any omissions. The versatility of Indy Survey Tool enables researchers to delve into the correlations between categorizations in survey data, an essential aspect of research that can reveal gaps in the literature and highlight promising areas for future exploration. A preprint and supplemental material for the paper can be found at <a href=\"https://osf.io/tdhqn\">osf.io/tdhqn</a>.",
+        "teaserImg": "Crnovrsanin2023IndySurveyTool.png",
+        "image": "Crnovrsanin2023IndySurveyTool.png",
+        "imageDesc": "An example of how the Indy Survey Tool we present was used in recent survey on Immersive Analytics. The left panel lets users filter using a search bar, timeline, and topic selector. The top bar provides information about the survey and how to add new entries. The center  shows a short summary of each included paper. The collapsible visualization panel on the right shows a correlation matrix for two selected dimensions. Interacting with the left and right panels filters the papers displayed in the center. Upon selection of a paper, a detail view pops up with all of its information (not shown).",
+        "altText": "Screenshot of Indy Survey tool showing filter sliders, scented widgets, and other filter widgets on the left; a list of papers in the middle; and an adjacency matrix on the right.",
+        "materials": {
+          "PDF": "https://osf.io/um9gs/download",
+          "Preprint": "https://osf.io/um9gs/",
+          "Supplement": "https://osf.io/tdhqn/",
+          "Code": "https://github.com/VisDunneRight/Indy-Survey-Tool"
+        }
+      },
+      {
+        "title": "A collection of benchmark datasets for evaluating graph layout algorithms",
+        "year": "2023",
+        "authors": [
+          "Sara Di Bartolomeo",
+          "Eduardo Puerta",
+          "Connor Wilson",
+          "Tarik Crnovrsanin",
+          "Cody Dunne"
+        ],
+        "venue": "Poster at Graph Drawing and Network Visualization—GD Posters",
+        "abstract": "We built a website to help graph drawing researchers find benchmark datasets to use for evaluating graph layout algorithms.",
+        "teaserImg": "DiBartolomeo2023CollectionBenchmarkDatasets.png",
+        "image": "DiBartolomeo2023CollectionBenchmarkDatasets.png",
+        "imageDesc": "We made a website collecting and compiling datasets used in Graph Drawing literature, find it at <a href=\"https://visdunneright.github.io/gd_benchmark_sets/\">https://visdunneright.github.io/gd_benchmark_sets/</a>.",
+        "altText": "Comic depicting motivation for website and a screenshot of website.",
+        "award": "GD 2023 best poster honorable mention!",
+        "materials": {
+          "PDF": "https://osf.io/yftju/download",
+          "Preprint": "https://osf.io/yftju/",
+          "DOI": "",
+          "Supplement": "https://osf.io/j7ucv/",
+          "Code": "https://osf.io/j7ucv/",
+          "Homepage": "https://visdunneright.github.io/gd_benchmark_sets/",
+          "Award": "Best poster honorable mention!"
+        }
+      },
+      {
+        "title": "Unraveling the design space of immersive analytics: a systematic review",
+        "year": "2023",
+        "authors": [
+          "David Saffo",
+          "Sara Di Bartolomeo",
+          "Tarik Crnovrsanin",
+          "Laura South",
+          "Justin Raynor",
+          "Caglar Yildirim",
+          "Cody Dunne"
+        ],
+        "venue": "IEEE Transactions on Visualization and Computer Graphics—VIS/TVCG",
+        "abstract": "Immersive analytics has emerged as a promising research area, leveraging advances in immersive display technologies and techniques, such as virtual and augmented reality, to facilitate data exploration and decision-making. This paper presents a systematic literature review of 73 studies published between 2013-2022 on immersive analytics systems and visualizations, aiming to identify and categorize the primary dimensions influencing their design. We identified five key dimensions: Academic Theory and Contribution, Immersive Technology, Data, Spatial Presentation, and Visual Presentation. Academic Theory and Contribution assess the motivations behind the works and their theoretical frameworks. Immersive Technology examines the display and input modalities, while Data dimension focuses on dataset types and generation. Spatial Presentation discusses the environment, space, embodiment, and collaboration aspects in IA, and Visual Presentation explores the visual elements, facet and position, and manipulation of views. By examining each dimension individually and cross-referencing them, this review uncovers trends and relationships that help inform the design of immersive systems visualizations. This analysis provides valuable insights for researchers and practitioners, offering guidance in designing future immersive analytics systems and shaping the trajectory of this rapidly evolving field. A free copy of this paper and all supplemental materials are available at <a href=\"https://osf.io/5ewaj\">osf.io/5ewaj</a>.",
+        "teaserImg": "Saffo2023UnravelingDesignSpace.png",
+        "image": "Saffo2023UnravelingDesignSpace.png",
+        "imageDesc": "The co-occurrences of codes, appearing in 8 or more surveyed papers, across five design dimensions of immersive analytics (IA) systems and visualizations. The codes found in each category combine to represent the unique design choices possible in the vast IA design space. These vignettes demonstrate how different codes sum to IA designs found within the academic literature.",
+        "altText": "Large adjacency matrix of several contribution types by other factors considered in the survey with illustrative examples of several papers classified.",
+        "materials": {
+          "PDF": "https://osf.io/2e9x4/download",
+          "Preprint": "https://osf.io/2e9x4/",
+          "Supplement": "https://osf.io/5ewaj/",
+          "Code": "https://github.com/VisDunneRight/IADesign.Space",
+          "Homepage": "https://iadesign.space/"
+        }
+      },
+      {
+        "title": "Juvenile graphical perception: A comparison between children and adults",
+        "year": "2022",
+        "authors": [
+          "Liudas Panavas",
+          "Amy Worth",
+          "Tarik Crnovrsanin",
+          "Tejas Sathyamurthi",
+          "Sara Cordes",
+          "Michelle A. Borkin",
+          "Cody Dunne"
+        ],
+        "venue": "In Proc. CHI Conference on Human Factors in Computing Systems—CHI",
+        "abstract": "Data visualization is pervasive in the lives of children as they encounter graphs and charts in early education and online media. In spite of this prevalence, our guidelines and understanding of how children perceive graphs stem primarily from studies conducted with adults. Previous psychology and education research indicates that children’s cognitive abilities are different from adults. Therefore, we conducted a classic graphical perception study on a population of children aged 8–12 enrolled in the Ivy After School Program in Boston, MA and adult computer science students enrolled in Northeastern University to determine how accurately participants judge differences in particular graphical encodings.We record the accuracy of participants’ answers for five encodings most commonly used with quantitative data. The results of our controlled experiment show that children have remarkably similar graphical perception to adults, but are consistently less accurate at interpreting the visual encodings. We found similar effectiveness rankings, relative differences in error between the different encodings, and patterns of bias across encoding types. Based on our findings, we provide design guidelines and recommendations for creating visualizations for children. This paper and all supplemental materials are available at <a href=\"https://osf.io/ygrdv/\">osf.io/ygrdv</a>.",
+        "teaserImg": "Panavas2022JuvenileGraphicalPerception.png",
+        "image": "Panavas2022JuvenileGraphicalPerception.png",
+        "imageDesc": "Illustration of a designer thinking about Cleveland & McGill's guidelines when creating visualizations for students.",
+        "altText": "Designer thinking about Cleveland & McGill's guidelines",
+        "materials": {
+          "PDF": "https://osf.io/r3dy2/download",
+          "Preprint": "https://osf.io/r3dy2",
+          "DOI": "https://doi.org/10.1145/3491102.3501893",
+          "Supplement": "https://osf.io/ygrdv/",
+          "Video Preview": "https://osf.io/k5bcw/",
+          "Video Presentation": "https://osf.io/xjwz3/"
+        }
+      },
+      {
+        "title": "Visual utility evaluation of differentially private scatterplots",
+        "year": "2022",
+        "authors": [
+          "Liudas Panavas",
+          "Tarik Crnovrsanin",
+          "Jane Adams",
+          "Ali Sargavad",
+          "Melanie Tory",
+          "Cody Dunne"
+        ],
+        "venue": "Poster at IEEE VIS—VIS Posters",
+        "abstract": "Differentially private scatterplots enable the plotting of two attributes while guaranteeing a specified level of privacy. What a user sees from the scatterplot can be affected by which privacy algorithm is used and how it adds noise to the data. However, there is no existing work that quantifies this effect. We present the results of a pilot data study that compares the visual utility of algorithms that create differentially private scatterplots. We compare five popular algorithms across a range of parameters. The results indicate that DAWA and Geometric Truncated are the best algorithms for visual utility. Future research could focus on optimizing the different parameters to maximize utility of the visual representations.",
+        "teaserImg": "Panavas2022VisualUtilityEvaluation.png",
+        "image": "Panavas2022VisualUtilityEvaluation.png",
+        "imageDesc": "This diagram shows the process of how a regular scatterplot becomes private when a differential privacy algorithm is applied.",
+        "altText": "Differential privacy pipeline on a scatterplot",
+        "materials": {
+          "PDF": "https://osf.io/5t68s/download",
+          "Preprint": "https://osf.io/5t68s/",
+          "DOI": "https://doi.org/10.31219/osf.io/5t68s",
+          "Supplement": "https://osf.io/w7ng4/",
+          "Poster": "https://osf.io/q7w42"
+        },
+        "note": "Preprint & supplemental material: https://osf.io/5t68s/"
+      },
+      {
+        "title": "The state of the art in BGP visualization tools: a mapping of visualization techniques to cyberattack types",
+        "authors": [
+          "Justin Raynor",
+          "Tarik Crnovrsanin",
+          "Sara Di Bartolomeo",
+          "Laura South",
+          "David Saffo",
+          "Cody Dunne"
+        ],
+        "venue": "IEEE Transactions on Visualization and Computer Graphics—VIS, pp.1--11",
+        "year":"2022",
+        "url" : "https://ieeexplore.ieee.org/document/9904432",
+        "image": "Raynor2022StateArtBgp.png",
+        "materials": {
+          "PDF": "https://osf.io/pkqc9/download",
+          "Preprint": "https://osf.io/pkqc9/",
+          "DOI": "https://doi.org/10.1109/TVCG.2022.3209412",
+          "Supplement": "https://osf.io/tupz6/",
+          "Video Preview": "https://www.youtube.com/watch?v=bdBozK2R0Oo",
+          "Video Preview (Archive)": "https://osf.io/9m8ce/",
+          "Video Presentation": "https://osf.io/gwjq3/"
+        }
+      },
+      {
         "title": "Staged Animation Strategies for Online Dynamic Networks",
-        "authors":"Crnovrsanin, T., Shilpika, Chandrasegaran, S. and Ma KL.",
-        "venue": "IEEE Information Visualization Conference (InfoVis), ",
+        "authors":["Tarik Crnovrsanin", "Shilpika S Chandrasegaran", "Kwan-Liu Ma"],
+        "venue": "IEEE Information Visualization Conference (InfoVis)",
         "year":"2020",
         "url" : "https://arxiv.org/abs/2009.02005",
-        "image": "stagedAnimation.png"
+        "image": "stagedAnimation.png",
+        "materials": {
+          "PDF": "https://ieeexplore.ieee.org/document/9231268",
+          "Preprint": "https://arxiv.org/abs/2009.02005",
+          "DOI": "https://doi.org/10.1109/TVCG.2020.3030385"
+        }
       },
       {
         "title": "An Interactive System for Exploring Historical Fire Data",
-        "authors":"Gomov M., Crnovrsanin, T., Dasu K. and Ma KL.",
-        "venue": "IEEE Pacific Visualization Symposium (PacificVis), pp. 277--281,",
+        "authors":["Maksim Gomov", "Tarik Crnovrsanin", "Keshav Dasu", "Kwan-Liu Ma"],
+        "venue": "IEEE Pacific Visualization Symposium (PacificVis), pp. 277--281",
         "year":"2019",
         "url" : "https://ieeexplore.ieee.org/document/8781588",
-        "image": "Historical.png"
+        "image": "Historical.png",
+        "materials": {
+          "PDF": "https://ieeexplore.ieee.org/document/8781588",
+          "DOI": "https://doi.org/10.1109/PacificVis.2019.00040"
+        }
       },
       {
         "title": "What Would a Graph Look Like in this Layout? A Machine Learning Approach to Large Graph Visualization",
-        "authors": "Kwon OH., Crnovrsanin, T., and Ma KL.",
-        "venue": "IEEE Transaction Visualization Computer Graph, 24(1), pp. 478--488, ",
+        "authors": ["Oh-Hyun Kwon", "Tarik Crnovrsanin", "Kwan-Liu Ma"],
+        "venue": "IEEE Transaction Visualization Computer Graph, 24(1), pp. 478--488",
         "year": "2018",
-        "supplement" : "http://kwon.cs.ucdavis.edu/wgl",
-        "url" : "https://arxiv.org/abs/1710.04328",
-        "previewvide": "https://vimeo.com/230840405",
-        "code": "https://github.com/VIDILabs/glam",
-        "image": "GraphLook.png"
+        "image": "GraphLook.png",
+        "materials": {
+          "PDF": "https://arxiv.org/pdf/1710.04328.pdf",
+          "Preprint": "https://arxiv.org/abs/1710.04328",
+          "DOI": "https://doi.org/10.1109/TVCG.2017.2743858",
+          "Supplement": "http://kwon.cs.ucdavis.edu/wgl",
+          "Video Preview": "https://vimeo.com/230840405",
+          "Code": "https://github.com/VIDILabs/glam"
+        }
       },
       {
         "title": "An Incremental Layout Method for Visualizing Online Dynamic Graphs",
-        "authors":"Crnovrsanin, T., Chu J., and Ma KL.",
-        "venue": "Conference on Graph Drawing and Network Visualization, pp. 16--29, ",
+        "authors":["Tarik Crnovrsanin", "Jacqueline Chu", "Kwan-Liu Ma"],
+        "venue": "Conference on Graph Drawing and Network Visualization, pp. 16--29",
         "year":"2015",
         "url" : "https://vis.cs.ucdavis.edu/papers/tarik_incremental.pdf",
-        "image": "Incremental.png"
+        "image": "Incremental.png",
+        "award": "GD 2015 Best paper award",
+        "materials": {
+          "PDF": "https://dl.acm.org/doi/10.1007/978-3-319-27261-0_2",
+          "Preprint": "https://vis.cs.ucdavis.edu/papers/tarik_incremental.pdf",
+          "DOI": "https://doi.org/10.1007/978-3-319-27261-0_2"
+        }
       },
       {
         "title": "A System for Visual Analysis of Radio Signal Data",
-        "authors":"Crnovrsanin, T., Muelder C., and Ma KL.",
-        "venue": "Conference on Visual Analytics Science and Technology (VAST), pp. 33--42, ",
+        "authors":["Tarik Crnovrsanin", "Chris Muelder", "Kwan-Liu Ma"],
+        "venue": "Conference on Visual Analytics Science and Technology (VAST), pp. 33--42",
         "year":"2014",
         "url" : "https://ieeexplore.ieee.org/document/7042479/",
-        "previewvideo" : "https://vimeo.com/104495491",
+        "materials":{
+          "DOI": "https://dl.acm.org/doi/10.1007/978-3-319-27261-0_2",
+          "Video Preview" : "https://vimeo.com/104495491"
+        },
         "image": "RadioSignal.png"
       },
       {
         "title": "Stimulating a Blink: Reduction of Eye Fatigue with Visual Stimulus",
-        "authors":"Crnovrsanin, T., Wang Y., and Ma KL.",
-        "venue": "Conference on Human Factors in Computing Systems(CHI), pp. 33--42, ",
+        "authors":["Tarik Crnovrsanin", "Yang Wang", "Kwan-Liu Ma"],
+        "venue": "Conference on Human Factors in Computing Systems(CHI), pp. 33--42",
         "year":"2014",
         "url" : "http://vis.cs.ucdavis.edu/papers/blink.pdf",
-        "previewvideo" : "https://www.youtube.com/watch?v=WXFYEfxMF8I",
-        "image": "Stimulating.png"
+        "image": "Stimulating.png",
+        "materials":{
+          "PDF": "http://vis.cs.ucdavis.edu/papers/blink.pdf",
+          "DOI": "https://dl.acm.org/doi/10.1145/2556288.2557129",
+          "Video Preview" : "https://www.youtube.com/watch?v=WXFYEfxMF8I"
+        }
       },
       {
         "title": "Egocentric Storylines for Visual Analysis of Large Dynamic Graphs",
-        "authors":"Muelder C., Crnovrsanin, T., Sallaberry A., and Ma KL.",
-        "venue": "IEEE Workshop on Big Data Visualization, pp. 56--62, ",
+        "authors":["Chris Muelder", "Tarik Crnovrsanin", "Arnaud Sallaberry", "Kwan-Liu Ma"],
+        "venue": "IEEE Workshop on Big Data Visualization, pp. 56--62",
         "year":"2013",
         "url" : "https://ieeexplore.ieee.org/document/6691715",
-        "image": "Egocentric.png"
+        "image": "Egocentric.png",
+        "materials":{
+          "PDF": "https://vis.cs.ucdavis.edu/papers/bdv2013-muelder.pdf",
+          "DOI": "https://doi.org/10.1109/BigData.2013.6691715"
+        }
       },
       {
         "title": "Visual Recommendations for Network Navigation",
-        "authors":"Crnovrsanin, T., Liao I., Wu Y., and Ma KL.",
-        "venue": "In Proceedings of the Eurovis, vol. 30, pp. 1081--1090, ",
+        "authors":["Tarik Crnovrsanin", "Isaac Liao", "Yingcai Wu", "Kwan-Liu Ma"],
+        "venue": "In Proceedings of the Eurovis, vol. 30, pp. 1081--1090",
         "year":"2011",
         "url" : "http://vis.cs.ucdavis.edu/papers/visual_recommendation.pdf",
-        "image": "Recommendations.png"
+        "image": "Recommendations.png",
+        "materials":{
+          "PDF": "https://onlinelibrary.wiley.com/doi/10.1111/j.1467-8659.2011.01957.x",
+          "PrePrint": "http://vis.cs.ucdavis.edu/papers/visual_recommendation.pdf",
+          "DOI": "http://dx.doi.org/10.1111/j.1467-8659.2011.01957.x"
+        }
       },
       {
         "title": "Social Network Discovery based on Sensitivity Analysis",
-        "authors":"Crnovrsanin, T., Correa C., and Ma KL.",
-        "venue": "Proceedings International Conference of Advances in Social Networks Analysis and Mining (ASONAM), pp. 107--112, ",
+        "authors":["Tarik Crnovrsanin", "Carlos D. Correa", "Kwan-Liu Ma"],
+        "venue": "Proceedings International Conference of Advances in Social Networks Analysis and Mining (ASONAM), pp. 107--112",
         "year":"2009",
         "url" : "https://ieeexplore.ieee.org/document/5231923",
-        "image": "Sensitivity.png"
+        "image": "Sensitivity.png",
+        "materials":{
+          "PDF": "https://ieeexplore.ieee.org/document/5231923",
+          "DOI": "https://doi.org/10.1109/ASONAM.2009.56"
+        }
       },
       {
         "title": "Proximity-based Visualization of Movement Trace Data",
-        "authors":"Crnovrsanin, T., Muelder C., Correa C., and Ma KL.",
-        "venue": "Conference on Visual Analytics Science and Technology (VAST), pp. 11--18, ",
+        "authors":["Tarik Crnovrsanin", "Chris Muelder", "Carlos D. Correa", "Kwan-Liu Ma"],
+        "venue": "Conference on Visual Analytics Science and Technology (VAST), pp. 11--18",
         "year":"2009",
         "url" : "https://ieeexplore.ieee.org/document/5332593",
-        "image": "Proximity.png"
+        "image": "Proximity.png",
+        "materials":{
+          "PDF": "https://ieeexplore.ieee.org/document/5332593",
+          "PrePrint": "http://www.carloscorrea.com/docs/proxivis.pdf",
+          "DOI": "https://doi.org/10.1109/VAST.2009.5332593"
+        }
       }
     ]
   },
@@ -352,7 +600,7 @@
     },
     {
       "title": "Intuitive Social Network Graphs in VAST 2008 Challenge",
-      "summary": "Recieved in 2008 with C. Correa, C. Muelder, T. Crnovrsanin, J. Shearer, KL. Ma." 
+      "summary": "Recieved in 2008 with Carlos D. Correa, Chris Muelder, James Shearer, Kwan-Liu Ma." 
     }
   ],
   "press": [

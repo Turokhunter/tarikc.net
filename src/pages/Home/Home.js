@@ -1,24 +1,30 @@
 import React from "react";
 import Layout from "../../components/Layout";
-import { SectionTitle, Paragraph } from "../../styles";
+import { SectionTitle, Paragraph, CardStyle } from "../../styles";
 import { Col, Image, Row, Card } from "react-bootstrap";
 import Media from "../../components/Media";
-// import { ProfileLink } from './styles';
+import {
+  MyCard,
+  CardImage,
+  CardHeaderSmall,
+  CardBody,
+  CardFooter,
+} from "../../styles";
 
 const Cards = ({ items }) => {
   return (
-    <Row>
+    <CardStyle>
       {items.map((item, index) => (
-        <Card key={index} style={{ width: "22rem" }}>
-          <Card.Img variant="top" src={item.image} />
-          <Card.Body>
-            <Card.Title>{item.title}</Card.Title>
-            <Card.Text>{item.summary}</Card.Text>
+        <MyCard key={index} style={{ width: "22rem" }}>
+          <CardImage variant="top" height={190} src={item.image} />
+          <CardHeaderSmall>{item.title}</CardHeaderSmall>
+          <CardBody>{item.summary}</CardBody>
+          <CardFooter>
             <Card.Link href={item.link}>Details</Card.Link>
-          </Card.Body>
-        </Card>
+          </CardFooter>
+        </MyCard>
       ))}
-    </Row>
+    </CardStyle>
   );
 };
 
@@ -26,8 +32,8 @@ const Home = ({ user }) => {
   return (
     <Layout user={user}>
       <Row>
-        <Col>
-          <Image src="MyFace.jpg" width={360} />
+        <Col md="auto">
+          <Image src="CrnovrsaninTarik_Northeastern_Photo.jpg" width={360} />
           <Media media={user.basics} />
         </Col>
         <Col>
@@ -37,11 +43,11 @@ const Home = ({ user }) => {
           </div>
         </Col>
       </Row>
-      <Row>
-        <div>
-          <SectionTitle>Selected Papers</SectionTitle>
-          <Cards items={user.selectedpapers} />
-        </div>
+      <SectionTitle style={{ display: "flex", justifyContent: "left" }}>
+        Selected Papers
+      </SectionTitle>
+      <Row style={{ display: "flex", justifyContent: "center" }}>
+        <Cards items={user.selectedpapers} />
       </Row>
       {/* <Row>
         <div>

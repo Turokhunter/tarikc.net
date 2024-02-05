@@ -1,65 +1,73 @@
-import React from 'react';
+import React from "react";
 
-import { Link, useLocation } from 'react-router-dom';
-import { Nav, Navbar} from 'react-bootstrap';
-import { StyledNavMain, StyledNavSub } from './styles';
+import { Link, useLocation } from "react-router-dom";
+import { Nav, Navbar } from "react-bootstrap";
+import { StyledNavMain, StyledNavSub, StyledNavBrand } from "./styles";
 
 const items = [
-  { name: 'Home', path: '/', 
-    subpath:[
+  {
+    name: "Home",
+    path: "/",
+    subpath: [
       {
-      name: 'Bio',
-      path: '/' 
+        name: "Bio",
+        path: "/",
       },
       {
-        name: 'Resume',
-        path: '/resume.pdf' 
+        name: "Resume",
+        path: "/resume.pdf",
       },
       {
-        name: 'C.V.',
-        path: '/cv.pdf' 
+        name: "C.V.",
+        path: "/cv.pdf",
       },
-    ]
+    ],
   },
-  { name: 'Publications', path: '/publications',
-    subpath:[
+  {
+    name: "Publications",
+    path: "/publications",
+    subpath: [
       {
-      name: 'Journal',
-      path: '/publications#journal' 
+        name: "Journal",
+        path: "/publications#journal",
       },
       {
-        name: 'Conference',
-        path: '/publications#conference' 
+        name: "Conference",
+        path: "/publications#conference",
       },
-    ]
+    ],
   },
-  { name: 'Projects', path: '/projects',
-      subpath:[
+  {
+    name: "Projects",
+    path: "/projects",
+    subpath: [
       {
-      name: 'Research',
-      path: '/projects#research' 
+        name: "Research",
+        path: "/projects#research",
       },
       {
-        name: '3D Design',
-        path: '/projects#design' 
+        name: "3D Design",
+        path: "/projects#design",
       },
       {
-        name: 'Side Work',
-        path: '/projects#side' 
+        name: "Side Work",
+        path: "/projects#side",
       },
-    ] 
+    ],
   },
-  { name: 'Publicity', path: '/publicity',
-      subpath:[
+  {
+    name: "Publicity",
+    path: "/publicity",
+    subpath: [
       {
-      name: 'Awards',
-      path: '/publicity#awards' 
+        name: "Awards",
+        path: "/publicity#awards",
       },
       {
-        name: 'Press',
-        path: '/publicity#press' 
+        name: "Press",
+        path: "/publicity#press",
       },
-    ] 
+    ],
   },
 ];
 
@@ -68,29 +76,26 @@ const Header = () => {
 
   return (
     // <Navbar expand = "lg" bg="light" variant="light" fixed= "top">
-    
+
     <Navbar fluid="true" expand="lg">
-      <Navbar.Brand style={{fontSize: "2rem"}} href="/">Tarik Crnovrsanin</Navbar.Brand>
+      <StyledNavBrand href="/">Dr. Tarik Crnovrsanin</StyledNavBrand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
           {items.map((i, idx) => (
-            <Nav.Item  key={idx} className="flex-column">
-              <StyledNavMain style ={{color: "#000000"}}
+            <Nav.Item key={idx} className="flex-column">
+              <StyledNavMain
+                style={{ color: "#000000" }}
                 element={Link}
                 href={i.path}
                 key={i.name}
               >
                 {i.name}
               </StyledNavMain>
-              {i.subpath.map(j => (
-                  <StyledNavSub
-                    element={Link}
-                    href={j.path}
-                    key={j.name}
-                  >
-                    {j.name}
-                  </StyledNavSub>
+              {i.subpath.map((j) => (
+                <StyledNavSub element={Link} href={j.path} key={j.name}>
+                  {j.name}
+                </StyledNavSub>
               ))}
             </Nav.Item>
           ))}
