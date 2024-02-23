@@ -4,6 +4,7 @@ export const CardRow = styled.div`
   display: flex;
   gap: 1rem;
   padding-bottom: 30px;
+  flex-wrap: wrap;
 `;
 
 export const InvisibleButton = styled.div`

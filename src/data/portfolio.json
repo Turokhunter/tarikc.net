@@ -75,10 +75,55 @@
         "summary" : "My research spans networks, information visualization, and algorithms. Specifically, it focuses on the implementation of new algorithms to improve visual understanding and analysis. The projects below are part of my Master's and Ph.D. research. Not all of these projects became papers but nonetheless have interesting elements worth sharing.",
         "entries": [
           {
-            "title": "Coming soon",
+            "title": "Amoeba: Visual metaphor for discourse forums",
+            "image": "Amoeba.png",
+            "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
+            "tags":["C++", "OpenGL", "OpenCL"],
+            "html" : [
+              { "p" : "Still under construction."}
+            ]
+          },
+          {
+            "title": "DAC",
+            "image": "dac.png",
+            "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
+            "tags":["JS", "Svelte", "JupyterLab Widget"],
+            "html" : [
+              { "p" : "Still under construction."}
+            ]
+          },
+          {
+            "title": "Indy Survey Tool",
+            "image": "IndySurvey.png",
+            "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
+            "tags":["JS", "Svelte"],
+            "html" : [
+              { "p" : "Still under construction."}
+            ]
+          },
+          {
+            "title": "Batch Simulation Tool",
             "image": "JupiterOldvsNew.png",
             "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
-            "tags":["CAD", "Fusion 360"],
+            "tags":["Python", "Bash", "PX4", "ArduPilot"],
+            "html" : [
+              { "p" : "Still under construction."}
+            ]
+          },
+          {
+            "title": "Multi-Level Maps",
+            "image": "mgmap.png",
+            "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
+            "tags":["C++", "OpenGL"],
+            "html" : [
+              { "p" : "Still under construction."}
+            ]
+          },
+          {
+            "title": "Finding Similiarities in DB Queries",
+            "image": "SDSS.png",
+            "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
+            "tags":["JS","Python", "MongoDB"],
             "html" : [
               { "p" : "Still under construction."}
             ]
@@ -214,6 +259,7 @@
           "Melanie Tory",
           "Cody Dunne"
         ],
+        "hashLink":"differentially",
         "venue": "IEEE Transactions on Visualization and Computer Graphics—TVCG",
         "abstract": "Increasingly, visualization practitioners are working with, using, and studying private and sensitive data. There can be many stakeholders interested in the resulting analyses-but widespread sharing of the data can cause harm to individuals, companies, and organizations. Practitioners are increasingly turning to differential privacy to enable public data sharing with a guaranteed amount of privacy. Differential privacy algorithms do this by aggregating data statistics with noise, and this now-private data can be released visually with differentially private scatterplots. While the private visual output is affected by the algorithm choice, privacy level, bin number, data distribution, and user task, there is little guidance on how to choose and balance the effect of these parameters. To address this gap, we had experts examine 1,200 differentially private scatterplots created with a variety of parameter choices and tested their ability to see aggregate patterns in the private output (i.e. the visual utility of the chart). We synthesized these results to provide easy-to-use guidance for visualization practitioners releasing private data through scatterplots. Our findings also provide a ground truth for visual utility, which we use to benchmark automated utility metrics from various fields. We demonstrate how multi-scale structural similarity (MS-SSIM), the metric most strongly correlated with our study's utility results, can be used to optimize parameter selection. A free copy of this paper along with all supplemental materials is available at <a href=\"https://osf.io/wej4s/\">osf.io/wej4s</a>.",
         "teaserImg": "Panavas2023InvestigatingVisualUtility.png",
@@ -232,6 +278,7 @@
       {
         "title": "Concise Provenance of Interactive Network Analysis",
         "authors": ["Takanori Fujiwara", "Tarik Crnovrsanin", "Kwan-Liu Ma"],
+        "hashLink":"Concise-Provenance",
         "venue": "Visual Informatics 2(4), pp. 213--224",
         "year":"2018",
         "url" : "https://www.sciencedirect.com/science/article/pii/S2468502X1830055X",
@@ -247,17 +294,20 @@
       {
         "title": "An Incremental Layout Method for Visualizing Online Dynamic Graphs",
         "authors":["Tarik Crnovrsanin", "Jacqueline Chu", "Kwan-Liu Ma"],
+        "hashLink":"Incremental-Layout",
         "venue": "Journal Graph Algorithm Application (JGAA), 21(1), pp.55--80",
         "year":"2017",
         "url" : "http://jgaa.info/accepted/2017/CrnovrsaninChuMa2017.21.1.pdf",
         "image": "Incremental.png",
         "materials": {
-          "PDF": "https://jgaa.info/accepted/2017/CrnovrsaninChuMa2017.21.1.pdf"
+          "PDF": "https://jgaa.info/accepted/2017/CrnovrsaninChuMa2017.21.1.pdf",
+          "DOI": "https://doi.org/10.7155/jgaa.00406"
         }
       },
       {
         "title": "Visualization Techniques for Categorical Analysis of Social Networks with Multiple Edge Sets",
         "authors":["Tarik Crnovrsanin", "Chris Muelder", "Bob Faris", "Diane Felmlee", "Kwan-Liu Ma"],
+        "hashLink":"Categorical-Networks",
         "venue": "Social Networks, vol. 37, pp. 56--64",
         "year":"2014",
         "url" : "https://www.sciencedirect.com/science/article/abs/pii/S0378873313001044",
@@ -270,6 +320,7 @@
       {
         "title": "Visual Reasoning about Social Networks using Centrality Sensitivities",
         "authors":["Carlos D. Correa", "Tarik Crnovrsanin", "Kwan-Liu Ma"],
+        "hashLink":"Sensitivities-Networks",
         "venue": "IEEE Transactions Visualization Computer Graph(TVCG), vol. 18, pp. 106--120",
         "year":"2012",
         "url" : "https://ieeexplore.ieee.org/document/5669304",
@@ -291,6 +342,7 @@
           "Connor Wilson",
           "Cody Dunne"
         ],
+        "hashLink":"Indy-Survey",
         "venue": "In Proc. IEEE Visualization Conference—VIS",
         "abstract": "Survey companion websites allow users to explore collected survey information more deeply, as well as update or add entries for papers. These sites can help information stay relevant past the original release date of the survey paper. However, creating and maintaining a website can be laborious and difficult, especially when authors might not be experienced with programming. We introduce Indy Survey Tool to help authors develop companion websites for survey papers across diverse fields of study. The tool's core aim is to identify correlations between categorizations of papers. To accomplish this, the tool offers multiple combined filters and correlation matrix visualizations that enable users to explore the data from diverse perspectives. The tool's visualizations, list of papers, and filters are harmoniously integrated and highly responsive, providing users with feedback based on their selections. Identifying correlations in survey papers is a pivotal aspect of research, as it can enable the recognition of common combinations of categorizations within the papers—as well as highlight any omissions. The versatility of Indy Survey Tool enables researchers to delve into the correlations between categorizations in survey data, an essential aspect of research that can reveal gaps in the literature and highlight promising areas for future exploration. A preprint and supplemental material for the paper can be found at <a href=\"https://osf.io/tdhqn\">osf.io/tdhqn</a>.",
         "teaserImg": "Crnovrsanin2023IndySurveyTool.png",
@@ -301,7 +353,8 @@
           "PDF": "https://osf.io/um9gs/download",
           "Preprint": "https://osf.io/um9gs/",
           "Supplement": "https://osf.io/tdhqn/",
-          "Code": "https://github.com/VisDunneRight/Indy-Survey-Tool"
+          "Code": "https://github.com/VisDunneRight/Indy-Survey-Tool",
+          "DOI":"https://doi.org/10.1109/VIS54172.2023.00038"
         }
       },
       {
@@ -314,6 +367,7 @@
           "Tarik Crnovrsanin",
           "Cody Dunne"
         ],
+        "hashLink":"Collection-Benchmark",
         "venue": "Poster at Graph Drawing and Network Visualization—GD Posters",
         "abstract": "We built a website to help graph drawing researchers find benchmark datasets to use for evaluating graph layout algorithms.",
         "teaserImg": "DiBartolomeo2023CollectionBenchmarkDatasets.png",
@@ -343,6 +397,7 @@
           "Caglar Yildirim",
           "Cody Dunne"
         ],
+        "hashLink":"IA-Review",
         "venue": "IEEE Transactions on Visualization and Computer Graphics—VIS/TVCG",
         "abstract": "Immersive analytics has emerged as a promising research area, leveraging advances in immersive display technologies and techniques, such as virtual and augmented reality, to facilitate data exploration and decision-making. This paper presents a systematic literature review of 73 studies published between 2013-2022 on immersive analytics systems and visualizations, aiming to identify and categorize the primary dimensions influencing their design. We identified five key dimensions: Academic Theory and Contribution, Immersive Technology, Data, Spatial Presentation, and Visual Presentation. Academic Theory and Contribution assess the motivations behind the works and their theoretical frameworks. Immersive Technology examines the display and input modalities, while Data dimension focuses on dataset types and generation. Spatial Presentation discusses the environment, space, embodiment, and collaboration aspects in IA, and Visual Presentation explores the visual elements, facet and position, and manipulation of views. By examining each dimension individually and cross-referencing them, this review uncovers trends and relationships that help inform the design of immersive systems visualizations. This analysis provides valuable insights for researchers and practitioners, offering guidance in designing future immersive analytics systems and shaping the trajectory of this rapidly evolving field. A free copy of this paper and all supplemental materials are available at <a href=\"https://osf.io/5ewaj\">osf.io/5ewaj</a>.",
         "teaserImg": "Saffo2023UnravelingDesignSpace.png",
@@ -352,6 +407,7 @@
         "materials": {
           "PDF": "https://osf.io/2e9x4/download",
           "Preprint": "https://osf.io/2e9x4/",
+          "DOI": "https://doi.org/10.1109/TVCG.2023.3327368",
           "Supplement": "https://osf.io/5ewaj/",
           "Code": "https://github.com/VisDunneRight/IADesign.Space",
           "Homepage": "https://iadesign.space/"
@@ -369,6 +425,7 @@
           "Michelle A. Borkin",
           "Cody Dunne"
         ],
+        "hashLink":"Juvenile-Perception",
         "venue": "In Proc. CHI Conference on Human Factors in Computing Systems—CHI",
         "abstract": "Data visualization is pervasive in the lives of children as they encounter graphs and charts in early education and online media. In spite of this prevalence, our guidelines and understanding of how children perceive graphs stem primarily from studies conducted with adults. Previous psychology and education research indicates that children’s cognitive abilities are different from adults. Therefore, we conducted a classic graphical perception study on a population of children aged 8–12 enrolled in the Ivy After School Program in Boston, MA and adult computer science students enrolled in Northeastern University to determine how accurately participants judge differences in particular graphical encodings.We record the accuracy of participants’ answers for five encodings most commonly used with quantitative data. The results of our controlled experiment show that children have remarkably similar graphical perception to adults, but are consistently less accurate at interpreting the visual encodings. We found similar effectiveness rankings, relative differences in error between the different encodings, and patterns of bias across encoding types. Based on our findings, we provide design guidelines and recommendations for creating visualizations for children. This paper and all supplemental materials are available at <a href=\"https://osf.io/ygrdv/\">osf.io/ygrdv</a>.",
         "teaserImg": "Panavas2022JuvenileGraphicalPerception.png",
@@ -395,6 +452,7 @@
           "Melanie Tory",
           "Cody Dunne"
         ],
+        "hashLink":"Visual-Differentially",
         "venue": "Poster at IEEE VIS—VIS Posters",
         "abstract": "Differentially private scatterplots enable the plotting of two attributes while guaranteeing a specified level of privacy. What a user sees from the scatterplot can be affected by which privacy algorithm is used and how it adds noise to the data. However, there is no existing work that quantifies this effect. We present the results of a pilot data study that compares the visual utility of algorithms that create differentially private scatterplots. We compare five popular algorithms across a range of parameters. The results indicate that DAWA and Geometric Truncated are the best algorithms for visual utility. Future research could focus on optimizing the different parameters to maximize utility of the visual representations.",
         "teaserImg": "Panavas2022VisualUtilityEvaluation.png",
@@ -420,6 +478,7 @@
           "David Saffo",
           "Cody Dunne"
         ],
+        "hashLink":"BGP-STAR",
         "venue": "IEEE Transactions on Visualization and Computer Graphics—VIS, pp.1--11",
         "year":"2022",
         "url" : "https://ieeexplore.ieee.org/document/9904432",
@@ -437,6 +496,7 @@
       {
         "title": "Staged Animation Strategies for Online Dynamic Networks",
         "authors":["Tarik Crnovrsanin", "Shilpika S Chandrasegaran", "Kwan-Liu Ma"],
+        "hashLink":"Staged-Dynamic",
         "venue": "IEEE Information Visualization Conference (InfoVis)",
         "year":"2020",
         "url" : "https://arxiv.org/abs/2009.02005",
@@ -450,6 +510,7 @@
       {
         "title": "An Interactive System for Exploring Historical Fire Data",
         "authors":["Maksim Gomov", "Tarik Crnovrsanin", "Keshav Dasu", "Kwan-Liu Ma"],
+        "hashLink":"Fire-System",
         "venue": "IEEE Pacific Visualization Symposium (PacificVis), pp. 277--281",
         "year":"2019",
         "url" : "https://ieeexplore.ieee.org/document/8781588",
@@ -462,6 +523,7 @@
       {
         "title": "What Would a Graph Look Like in this Layout? A Machine Learning Approach to Large Graph Visualization",
         "authors": ["Oh-Hyun Kwon", "Tarik Crnovrsanin", "Kwan-Liu Ma"],
+        "hashLink":"GraphML",
         "venue": "IEEE Transaction Visualization Computer Graph, 24(1), pp. 478--488",
         "year": "2018",
         "image": "GraphLook.png",
@@ -477,6 +539,7 @@
       {
         "title": "An Incremental Layout Method for Visualizing Online Dynamic Graphs",
         "authors":["Tarik Crnovrsanin", "Jacqueline Chu", "Kwan-Liu Ma"],
+        "hashLink":"Incremental-Layout-Conference",
         "venue": "Conference on Graph Drawing and Network Visualization, pp. 16--29",
         "year":"2015",
         "url" : "https://vis.cs.ucdavis.edu/papers/tarik_incremental.pdf",
@@ -491,17 +554,19 @@
       {
         "title": "A System for Visual Analysis of Radio Signal Data",
         "authors":["Tarik Crnovrsanin", "Chris Muelder", "Kwan-Liu Ma"],
+        "hashLink":"Radio-System",
         "venue": "Conference on Visual Analytics Science and Technology (VAST), pp. 33--42",
         "year":"2014",
         "url" : "https://ieeexplore.ieee.org/document/7042479/",
         "materials":{
-          "DOI": "https://dl.acm.org/doi/10.1007/978-3-319-27261-0_2",
+          "DOI": "https://doi.org/10.1109/VAST.2014.7042479",
           "Video Preview" : "https://vimeo.com/104495491"
         },
         "image": "RadioSignal.png"
       },
       {
         "title": "Stimulating a Blink: Reduction of Eye Fatigue with Visual Stimulus",
+        "hashLink":"Blink-Reduction",
         "authors":["Tarik Crnovrsanin", "Yang Wang", "Kwan-Liu Ma"],
         "venue": "Conference on Human Factors in Computing Systems(CHI), pp. 33--42",
         "year":"2014",
@@ -509,12 +574,13 @@
         "image": "Stimulating.png",
         "materials":{
           "PDF": "http://vis.cs.ucdavis.edu/papers/blink.pdf",
-          "DOI": "https://dl.acm.org/doi/10.1145/2556288.2557129",
+          "DOI": "https://doi.org/10.1145/2556288.2557129",
           "Video Preview" : "https://www.youtube.com/watch?v=WXFYEfxMF8I"
         }
       },
       {
         "title": "Egocentric Storylines for Visual Analysis of Large Dynamic Graphs",
+        "hashLink":"Egocentric-Storylines",
         "authors":["Chris Muelder", "Tarik Crnovrsanin", "Arnaud Sallaberry", "Kwan-Liu Ma"],
         "venue": "IEEE Workshop on Big Data Visualization, pp. 56--62",
         "year":"2013",
@@ -528,6 +594,7 @@
       {
         "title": "Visual Recommendations for Network Navigation",
         "authors":["Tarik Crnovrsanin", "Isaac Liao", "Yingcai Wu", "Kwan-Liu Ma"],
+        "hashLink":"Visual-Recommendations",
         "venue": "In Proceedings of the Eurovis, vol. 30, pp. 1081--1090",
         "year":"2011",
         "url" : "http://vis.cs.ucdavis.edu/papers/visual_recommendation.pdf",
@@ -541,6 +608,7 @@
       {
         "title": "Social Network Discovery based on Sensitivity Analysis",
         "authors":["Tarik Crnovrsanin", "Carlos D. Correa", "Kwan-Liu Ma"],
+        "hashLink":"Sensitivity-Discovery",
         "venue": "Proceedings International Conference of Advances in Social Networks Analysis and Mining (ASONAM), pp. 107--112",
         "year":"2009",
         "url" : "https://ieeexplore.ieee.org/document/5231923",
@@ -553,6 +621,7 @@
       {
         "title": "Proximity-based Visualization of Movement Trace Data",
         "authors":["Tarik Crnovrsanin", "Chris Muelder", "Carlos D. Correa", "Kwan-Liu Ma"],
+        "hashLink":"Proximity-Movement",
         "venue": "Conference on Visual Analytics Science and Technology (VAST), pp. 11--18",
         "year":"2009",
         "url" : "https://ieeexplore.ieee.org/document/5332593",

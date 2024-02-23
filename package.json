@@ -6,9 +6,7 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
-    "notion-client": "^4.13.0",
-    "notion-types": "^4.10.0",
-    "notion-utils": "^4.12.0",
+    "d3": "^7.8.5",
     "react": "^17.0.2",
     "react-bootstrap": "^2.1.0",
     "react-dom": "^17.0.2",
@@ -17,6 +15,7 @@
     "react-notion-x": "^4.13.1",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "react-tooltip": "^5.26.3",
     "styled-components": "^5.3.3",
     "web-vitals": "^2.1.3"
   },

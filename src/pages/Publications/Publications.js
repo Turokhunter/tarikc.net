@@ -5,6 +5,7 @@ import Materials from "./Materials";
 import { SectionTitle } from "../../styles";
 import { Row, Col } from "react-bootstrap";
 import { StyledImage, PubTitle } from "./styles";
+import { CitationChart } from "./CitationChart";
 
 const Papers = ({ papers }) => {
   return (
@@ -36,6 +37,10 @@ const Papers = ({ papers }) => {
 const Publications = ({ user }) => {
   return (
     <Layout user={user}>
+      <CitationChart
+        jounalPapers={user.publications.journal}
+        conferencePapers={user.publications.conference}
+      />
       <div>
         <SectionTitle id="journal">Journal Publications</SectionTitle>
         <Papers papers={user.publications.journal} />

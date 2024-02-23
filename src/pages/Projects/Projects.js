@@ -3,6 +3,7 @@ import { useState } from "react";
 import Layout from "../../components/Layout";
 import { Figure, Row, Col, Button, Modal } from "react-bootstrap";
 import { CardRow } from "./styles";
+
 import {
   MyCard,
   CardImage,
@@ -11,6 +12,7 @@ import {
   CardFooter,
   CardPill,
 } from "../../styles";
+
 // import { ProfileLink } from './styles';
 
 const Html = ({ ele }) => {
@@ -79,7 +81,7 @@ const Card = ({ entry }) => {
   const handleShow = () => setShow(true);
   return (
     <>
-      <MyCard style={{ width: 400, cursor: "pointer" }} onClick={handleShow}>
+      <MyCard style={{ width: 350, cursor: "pointer" }} onClick={handleShow}>
         <CardImage src={entry.image} alt="" />
         <CardHeader>{entry.title}</CardHeader>
         <CardBody>{entry.shortDesc}</CardBody>
