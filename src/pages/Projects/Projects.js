@@ -11,6 +11,7 @@ import {
   CardBody,
   CardFooter,
   CardPill,
+  Paragraph,
 } from "../../styles";
 
 // import { ProfileLink } from './styles';
@@ -119,7 +120,7 @@ const Projects = ({ user }) => {
             <h1>{section.title}</h1>
           </Row>
           <Row>
-            <p>{section.summary}</p>
+            <Paragraph>{section.summary}</Paragraph>
           </Row>
           <CardRow>
             {section.entries.map((entry) => (

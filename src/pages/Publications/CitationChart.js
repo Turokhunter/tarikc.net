@@ -6,10 +6,12 @@ import {
   timeYear,
   timeDay,
   scaleLinear,
-  interpolateGreens,
+  interpolatePurples,
   scaleSequentialLog,
   max,
 } from "d3";
+import { Tooltip } from "react-tooltip";
+import { useState } from "react";
 
 // This is a test to see if its possible to create visualization directly into react.
 // The paradigm I'm using is the same as svelte. Normally, hooks and effects + d3.select to
@@ -62,18 +64,26 @@ const DrawTick = ({ year, x, yA, direction = 1 }) => {
   }
 };
 
-export const CitationChart = ({ jounalPapers, conferencePapers }) => {
-  const margin = { left: 40, right: 40, top: 20, bottom: 20 };
-  const sett = { pr: 7, cr: 3 };
-  const height = 200;
+export const CitationChart = ({
+  jounalPapers,
+  conferencePapers,
+  otherTypes,
+}) => {
+  const margin = { left: 40, right: 40, top: 50, bottom: 26 };
+  const sett = { pr: 7, cr: 3.5 };
+  const height = 360;
   const width = 1000;
   const mapLinkPaper = {};
   const mapCitations = {};
+  const [highlighted, setHighlighted] = useState(-1);
   //Create a hash look up
   jounalPapers.forEach((paper) => {
     mapLinkPaper[paper.hashLink] = paper;
   });
   conferencePapers.forEach((paper) => {
+    mapLinkPaper[paper.hashLink] = paper;
+  });
+  otherTypes.forEach((paper) => {
     mapLinkPaper[paper.hashLink] = paper;
   });
   //Reorder the data
@@ -85,14 +95,14 @@ export const CitationChart = ({ jounalPapers, conferencePapers }) => {
 
   const ticks = timeYear.range(
     new Date(dataRange[0]),
-    timeYear.offset(new Date(dataRange[1]), 2)
+    timeYear.offset(new Date(dataRange[1]), 3)
   );
   dataRange[1] = ticks[ticks.length - 1].getFullYear();
   let x = scaleTime()
     .range([margin.left, width - margin.right])
     .domain(dataRange);
-  const widthSize = x("2022") - x("2021");
-  const widthCiteSize = Math.floor(widthSize / (sett.cr * 2)) - 2;
+  const widthSize = x("2022") - x("2021") - 8;
+  const widthCiteSize = Math.floor(widthSize / (sett.cr * 2 + 2));
   let paperArray = Array.from(paperGroup, ([name, value]) => ({ name, value }));
   paperArray.forEach((group) => {
     group.value.forEach((paper, idx) => {
@@ -129,7 +139,7 @@ export const CitationChart = ({ jounalPapers, conferencePapers }) => {
         return paper.total ? paper.total : 0;
       }),
     ],
-    interpolateGreens
+    interpolatePurples
   );
 
   return (
@@ -137,7 +147,7 @@ export const CitationChart = ({ jounalPapers, conferencePapers }) => {
       <svg
         height={height}
         width={width}
-        style={{ background: "white", borderRadius: "20px" }}
+        style={{ background: "white", borderRadius: "16px" }}
       >
         <g>
           <line
@@ -162,30 +172,37 @@ export const CitationChart = ({ jounalPapers, conferencePapers }) => {
           {Object.entries(groupCitations).map((group) => (
             <>
               {group[1].map((cite, idx) => (
-                <line
-                  key={cite.id + cite.link}
-                  x1={
-                    x(group[0]) +
-                    (sett.cr * 2 + 1) * ((idx % widthCiteSize) + 1)
-                  }
-                  y1={
-                    height -
-                    margin.bottom -
-                    Math.floor(idx / widthCiteSize) * ((sett.cr + 1.2) * 2) -
-                    sett.cr -
-                    7
-                  }
-                  x2={x(mapLinkPaper[cite.link].year) + widthSize / 2}
-                  y2={
-                    margin.top +
-                    mapLinkPaper[cite.link].pos * ((sett.pr + 1) * 2) +
-                    sett.pr +
-                    7
-                  }
-                  opacity={0.1}
-                  stroke="black"
-                  strokeWidth={1}
-                />
+                <>
+                  {mapLinkPaper[cite.link] === undefined ? (
+                    <p>{cite.link}</p>
+                  ) : (
+                    <line
+                      key={cite.id + cite.link}
+                      x1={
+                        x(group[0]) +
+                        (sett.cr * 2 + 1) * ((idx % widthCiteSize) + 1)
+                      }
+                      y1={
+                        height -
+                        margin.bottom -
+                        Math.floor(idx / widthCiteSize) *
+                          ((sett.cr + 1.2) * 2) -
+                        sett.cr -
+                        7
+                      }
+                      x2={x(mapLinkPaper[cite.link].year) + widthSize / 2}
+                      y2={
+                        margin.top +
+                        mapLinkPaper[cite.link].pos * ((sett.pr + 1) * 2) +
+                        sett.pr +
+                        7
+                      }
+                      opacity={cite.link === highlighted ? 0.4 : 0.05}
+                      stroke={cite.link === highlighted ? "#f44336" : "black"}
+                      strokeWidth={1}
+                    />
+                  )}
+                </>
               ))}
             </>
           ))}
@@ -194,19 +211,25 @@ export const CitationChart = ({ jounalPapers, conferencePapers }) => {
           {paperArray.map((group) => (
             <>
               {group.value.map((paper, idx) => (
-                <circle
-                  key={paper.hashLink}
-                  cx={x(group.name) + widthSize / 2}
-                  cy={margin.top + idx * ((sett.pr + 1) * 2) + sett.pr + 7}
-                  r={sett.pr}
-                  fill={paperColor(
-                    paper.hashLink in mapCitations
-                      ? mapCitations[paper.hashLink].total
-                      : 0
-                  )}
-                  stroke="black"
-                  strokeWidth={2}
-                />
+                <a href={"#" + paper.hashLink}>
+                  <circle
+                    key={paper.hashLink}
+                    data-tooltip-id="paper_tooltip"
+                    data-tooltip-content={paper.title}
+                    onMouseEnter={() => setHighlighted(paper.hashLink)}
+                    onMouseLeave={() => setHighlighted(-1)}
+                    cx={x(group.name) + widthSize / 2}
+                    cy={margin.top + idx * ((sett.pr + 1) * 2) + sett.pr + 7}
+                    r={sett.pr}
+                    fill={paperColor(
+                      paper.hashLink in mapCitations
+                        ? mapCitations[paper.hashLink].total
+                        : 0
+                    )}
+                    stroke="black"
+                    strokeWidth={2}
+                  />
+                </a>
               ))}
             </>
           ))}
@@ -219,17 +242,17 @@ export const CitationChart = ({ jounalPapers, conferencePapers }) => {
                   key={cite.id + cite.link}
                   cx={
                     x(group[0]) +
-                    (sett.cr * 2 + 1) * ((idx % widthCiteSize) + 1)
+                    (sett.cr * 2 + 2) * ((idx % widthCiteSize) + 1)
                   }
                   cy={
                     height -
-                    margin.top -
+                    margin.bottom -
                     Math.floor(idx / widthCiteSize) * ((sett.cr + 1.2) * 2) -
                     sett.cr -
-                    7
+                    9
                   }
                   r={sett.cr}
-                  fill="#0277bd"
+                  fill={cite.link === highlighted ? "#f44336" : "#0277bd"}
                   stroke="#37474f"
                   strokeWidth={1}
                 />
@@ -256,7 +279,44 @@ export const CitationChart = ({ jounalPapers, conferencePapers }) => {
             />
           ))}
         </g>
+        <image
+          x={width / 1.5}
+          y={-2}
+          href="Legend.svg"
+          height={50}
+          width={320}
+          alt="Shows the color mapping"
+        />
+        <text
+          x={15}
+          y={25}
+          fontSize={20}
+          fontWeight="bold"
+          textAnchor="start"
+          fontFamily="sans-serif"
+        >
+          My Publications and their Citations
+        </text>
+        <text
+          x={width / 2}
+          y={height - 6}
+          fontSize={14}
+          fontWeight="bold"
+          textAnchor="middle"
+          fontFamily="sans-serif"
+        >
+          Paper Citations
+        </text>
       </svg>
+      <Tooltip
+        id="paper_tooltip"
+        render={({ content }) => (
+          <span>
+            {content}
+            <br />
+          </span>
+        )}
+      />
     </div>
   );
 };

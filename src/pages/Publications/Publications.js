@@ -4,18 +4,18 @@ import Authors from "./Authors";
 import Materials from "./Materials";
 import { SectionTitle } from "../../styles";
 import { Row, Col } from "react-bootstrap";
-import { StyledImage, PubTitle } from "./styles";
+import { StyledImage, PubTitle, VisDiv } from "./styles";
 import { CitationChart } from "./CitationChart";
 
 const Papers = ({ papers }) => {
   return (
     <>
       {papers.map((pub) => (
-        <Row>
-          <Col xs={3} md={2}>
+        <Row id={pub.hashLink}>
+          <Col md={2}>
             <StyledImage src={pub.image} thumbnail />
           </Col>
-          <Col xs={12} md={8}>
+          <Col md={8}>
             <PubTitle>{pub.title}</PubTitle>
             <p>
               <Authors names={pub.authors} />. <i>{pub.venue}.</i> {pub.year}.
@@ -36,11 +36,14 @@ const Papers = ({ papers }) => {
 
 const Publications = ({ user }) => {
   return (
-    <Layout user={user}>
-      <CitationChart
-        jounalPapers={user.publications.journal}
-        conferencePapers={user.publications.conference}
-      />
+    <Layout user={user} fluid>
+      <VisDiv>
+        <CitationChart
+          jounalPapers={user.publications.journal}
+          conferencePapers={user.publications.conference}
+          otherTypes={user.publications.others}
+        />
+      </VisDiv>
       <div>
         <SectionTitle id="journal">Journal Publications</SectionTitle>
         <Papers papers={user.publications.journal} />
@@ -48,6 +51,10 @@ const Publications = ({ user }) => {
       <div>
         <SectionTitle id="conference">Conference Publications</SectionTitle>
         <Papers papers={user.publications.conference} />
+      </div>
+      <div>
+        <SectionTitle id="others">Other Publications</SectionTitle>
+        <Papers papers={user.publications.others} />
       </div>
     </Layout>
   );

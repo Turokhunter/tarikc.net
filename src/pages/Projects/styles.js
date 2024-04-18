@@ -5,6 +5,7 @@ export const CardRow = styled.div`
   gap: 1rem;
   padding-bottom: 30px;
   flex-wrap: wrap;
+  justify-content: center;
 `;
 
 export const InvisibleButton = styled.div`

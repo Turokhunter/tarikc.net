@@ -1,15 +1,15 @@
-import React from 'react';
-import Header from '../Header';
-import Footer from '../Footer';
+import React from "react";
+import Header from "../Header";
+import Footer from "../Footer";
 
-import Container from 'react-bootstrap/Container';
+import Container from "react-bootstrap/Container";
 
 const Layout = ({ user, children }) => {
   return (
     <>
       <Container>
         <Header />
-        <div>{children}</div>
+        {children}
         <Footer user={user} />
       </Container>
     </>

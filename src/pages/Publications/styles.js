@@ -10,6 +10,10 @@ export const StyledImage = styled(Image)`
   }
 `;
 
+export const VisDiv = styled.div`
+  overflow: auto;
+`;
+
 export const PubTitle = styled.a`
   font-weight: 800;
   color: #000;

@@ -8,6 +8,8 @@ export const SectionTitle = styled.h3`
 
 export const Paragraph = styled.p`
   white-space: pre-wrap;
+  padding-left: 1em;
+  padding-right: 1em;
 `;
 
 export const CardStyle = styled.div`

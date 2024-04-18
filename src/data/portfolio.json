@@ -4,7 +4,7 @@
     "picture": "CrnovrsaninTarik_Northeastern_Photo.jpg",
     "label": "",
     "headline": "",
-    "summary": "I am a Senior Software engineer and previously a PostDoc with Cody Dunne at Data Visualization at Khoury of Northeastern University. My research focuses on visualizations, techniques, and systems for various datasets, including static and dynamic networks, radio signals, and fire data. Currently, I'm an ORISE fellowship participant in explainable AI for drone detection. \n\nMy enjoyment of learning and conducting research extends beyond my graduate career. I combine my love of research and 7+ years of FDM printing to develop new flinging foam methods. I 3D design and engineer products from concept to full production. I also utilize my visualization skills to create better customer shopping experiences by providing UI to fully visualize/render and customize their purchases. ",
+    "summary": "I am a Senior Software engineer and previously a PostDoc with Cody Dunne at Data Visualization at Khoury of Northeastern University. My research focuses on visualizations, techniques, and systems for various datasets, including static and dynamic networks, radio signals, and fire data. I'm an past ORISE fellowship participant in explainable AI for drone detection. \n\nMy enjoyment of learning and conducting research extends beyond my graduate career. I combine my love of research and 7+ years of Fused Deposition Modeling (FDM) printing to develop new flinging foam methods. I 3D design and engineer products from concept to full production. I also utilize my visualization skills to create better customer shopping experiences by providing UI to fully visualize/render and customize their purchases. ",
     "website": "https://tarikc.net",
     "email": "",
     "region": "Boston, Massachusetts",
@@ -41,212 +41,216 @@
       "keywords": []
     }
   ],
-  "selectedprojects" : [
-      {
-        "title": "",
-        "summary": "",
-        "image" : "",
-        "link" : ""
-      }
+  "selectedprojects": [
+    {
+      "title": "",
+      "summary": "",
+      "image": "",
+      "link": ""
+    }
   ],
-  "selectedpapers" : [
+  "selectedpapers": [
     {
       "title": "Drawing Graphs with Multi-level Maps",
       "summary": "We present a method for drawing a graph with superimposed multi-level maps. Our method uses either a provided or derived hierarchy of the graph to create sub-graph regions of the map at varying zoom levels.",
-      "image" : "mgmap.png",
-      "link" : "/publications"
+      "image": "mgmap.png",
+      "link": "/publications"
     },
     {
       "title": "What Would a Graph Look Like in This Layout? A Machine Learning Approach to Large Graph Visualization",
       "summary": "We present a machine learning approach to large graph visualization based on computing the topological similarity of graphs using graph kernels. For a given graph, our approach can show what the graph would look like in different layouts and estimate their corresponding aesthetic metrics.",
-      "image" : "GraphLook.png",
-      "link" : "/publications"
+      "image": "GraphLook.png",
+      "link": "/publications"
     },
     {
       "title": "An Incremental Layout Method for Visualizing Online Dynamic Graphs",
       "summary": "A novel incremental layout method designed for online dynamic graphs that uses the concept of 'energy' to move nodes with high energy into low energy states. Our resulting visualization maintains readability of the graph structure and is efficient in laying out these changing networks.",
-      "image" : "Incremental.png",
-      "link" : "/publications"
+      "image": "Incremental.png",
+      "link": "/publications"
     }
-],
-  "projects":  [
-      {
-        "title": "Research",
-        "summary" : "My research spans networks, information visualization, and algorithms. Specifically, it focuses on the implementation of new algorithms to improve visual understanding and analysis. The projects below are part of my Master's and Ph.D. research. Not all of these projects became papers but nonetheless have interesting elements worth sharing.",
-        "entries": [
-          {
-            "title": "Amoeba: Visual metaphor for discourse forums",
-            "image": "Amoeba.png",
-            "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
-            "tags":["C++", "OpenGL", "OpenCL"],
-            "html" : [
-              { "p" : "Still under construction."}
-            ]
-          },
-          {
-            "title": "DAC",
-            "image": "dac.png",
-            "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
-            "tags":["JS", "Svelte", "JupyterLab Widget"],
-            "html" : [
-              { "p" : "Still under construction."}
-            ]
-          },
-          {
-            "title": "Indy Survey Tool",
-            "image": "IndySurvey.png",
-            "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
-            "tags":["JS", "Svelte"],
-            "html" : [
-              { "p" : "Still under construction."}
-            ]
-          },
-          {
-            "title": "Batch Simulation Tool",
-            "image": "JupiterOldvsNew.png",
-            "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
-            "tags":["Python", "Bash", "PX4", "ArduPilot"],
-            "html" : [
-              { "p" : "Still under construction."}
-            ]
-          },
-          {
-            "title": "Multi-Level Maps",
-            "image": "mgmap.png",
-            "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
-            "tags":["C++", "OpenGL"],
-            "html" : [
-              { "p" : "Still under construction."}
-            ]
-          },
-          {
-            "title": "Finding Similiarities in DB Queries",
-            "image": "SDSS.png",
-            "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
-            "tags":["JS","Python", "MongoDB"],
-            "html" : [
-              { "p" : "Still under construction."}
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Web Projects",
-        "summary" : "When I find the time (haha), I like to apply my visualization and programming skillset to some interesting side projects.",
-        "entries": [
-          {
-            "title": "3D Color and Option Picker",
-            "image": "STLViewer.png",
-            "shortDesc": "3D printing's key strength lies in customer customization, allowing them to personalize products by selecting colors and components. However, many platforms lack the immediate visual representation of these choices, leaving users uncertain about their selections. To address this, I developed the STL Viewer and menu system, enabling real-time updates of 3D printed files to showcase customers' chosen colors and components.",
-            "tags":["JS", "Shopify", "Three.js"],
-            "html" : [
-              { "p" : "One of the major strengths of 3D printing is the ability for the customers to customize their product by changing the color of the parts or choosing from a set of components to fit their style and personality.  Though most sites offer the ability to customize the user's purchase selection, they do not provide the means for the user to visually see their choice immediately.  There are so many possible parts and color choices that it is unreasonable for every permutation to be photographed. The lack of immediate feedback can leave the user unsure how particular color and parts combinations will look. Therefore, I created the STL Viewer and menu system that loads 3D printed files and updates them based on the customer's colors and choices in real-time."},
-              { "image":
-                {
-                  "src": "STLViewer.png",
-                  "caption": "Figure B. Illustration of the menu system and STL Viewer. The user chooses what colors and options they would prefer (on the right), and the results are displayed on the left. The Viewer allows for panning and zooming so that the user has a better idea of their choices made.",
-                  "width" : 720
+  ],
+  "projects": [
+    {
+      "title": "Research",
+      "summary": "My research spans networks, information visualization, and algorithms. Specifically, it focuses on the implementation of new algorithms to improve visual understanding and analysis. The projects below are part of my Master's and Ph.D. research. Not all of these projects became papers but nonetheless have interesting elements worth sharing.",
+      "entries": [
+        {
+          "title": "Amoeba: Visual metaphor for discourse forums",
+          "image": "Amoeba.png",
+          "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
+          "tags": ["C++", "OpenGL", "OpenCL"],
+          "html": [{ "p": "Still under construction." }]
+        },
+        {
+          "title": "DAC",
+          "image": "dac.png",
+          "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
+          "tags": ["JS", "Svelte", "JupyterLab Widget"],
+          "html": [{ "p": "Still under construction." }]
+        },
+        {
+          "title": "Indy Survey Tool",
+          "image": "IndySurvey.png",
+          "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
+          "tags": ["JS", "Svelte"],
+          "html": [{ "p": "Still under construction." }]
+        },
+        {
+          "title": "Batch Simulation Tool",
+          "image": "JupiterOldvsNew.png",
+          "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
+          "tags": ["Python", "Bash", "PX4", "ArduPilot"],
+          "html": [{ "p": "Still under construction." }]
+        },
+        {
+          "title": "Multi-Level Maps",
+          "image": "mgmap.png",
+          "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
+          "tags": ["C++", "OpenGL"],
+          "html": [{ "p": "Still under construction." }]
+        },
+        {
+          "title": "Finding Similiarities in DB Queries",
+          "image": "SDSS.png",
+          "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
+          "tags": ["JS", "Python", "MongoDB"],
+          "html": [{ "p": "Still under construction." }]
+        }
+      ]
+    },
+    {
+      "title": "Web Projects",
+      "summary": "When I find the time (haha), I like to apply my visualization and programming skillset to some interesting side projects.",
+      "entries": [
+        {
+          "title": "3D Color and Option Picker",
+          "image": "STLViewer.png",
+          "shortDesc": "3D printing's key strength lies in customer customization, allowing them to personalize products by selecting colors and components. However, many platforms lack the immediate visual representation of these choices, leaving users uncertain about their selections. To address this, I developed the STL Viewer and menu system, enabling real-time updates of 3D printed files to showcase customers' chosen colors and components.",
+          "tags": ["JS", "Shopify", "Three.js"],
+          "html": [
+            {
+              "p": "One of the major strengths of 3D printing is the ability for the customers to customize their product by changing the color of the parts or choosing from a set of components to fit their style and personality.  Though most sites offer the ability to customize the user's purchase selection, they do not provide the means for the user to visually see their choice immediately.  There are so many possible parts and color choices that it is unreasonable for every permutation to be photographed. The lack of immediate feedback can leave the user unsure how particular color and parts combinations will look. Therefore, I created the STL Viewer and menu system that loads 3D printed files and updates them based on the customer's colors and choices in real-time."
+            },
+            {
+              "image": {
+                "src": "STLViewer.png",
+                "caption": "Figure B. Illustration of the menu system and STL Viewer. The user chooses what colors and options they would prefer (on the right), and the results are displayed on the left. The Viewer allows for panning and zooming so that the user has a better idea of their choices made.",
+                "width": 720
+              }
+            },
+            {
+              "p": "We automatically generate the menu system from two JSON files. One JSON file describes where the STL file location, camera position, and product breakdown. The second JSON file contains information about filaments, such as cost tier and color in hex. This allows for a global filament file that makes adding and removing filament across all items easy. The left visualization provides basic capabilities such as zoom and pan and updates instantly based on the user selection from the menu on the right. The user selects a color by either the section menu or individually customizing each component in the section. The dropdown menu separates color based on the cost tier. As the visualization on the right cannot capture the exact color, or any nuances the filament might have such as glitter, mousing over each color provides a color correct swatch. When choosing a more expensive filament, the price changes and text updates to indicate the price difference in that section."
+            },
+            {
+              "link": {
+                "text": "For a live example of the code running, please check Jupiter listing:",
+                "url": "https://outofdarts.com/collections/jupiter/products/rival-jupiter-blaster-kit-build-it-yourself",
+                "linkText": "Jupiter Build it yourself"
+              }
+            },
+            {
+              "link": {
+                "text": "For those interested in the implementation, starting code can be found in GitHub:",
+                "url": "https://outofdarts.com/collections/jupiter/products/rival-jupiter-blaster-kit-build-it-yourself",
+                "linkText": "Github"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Menu Creator",
+          "image": "MenuCreator.png",
+          "shortDesc": "Innovation in design can trigger a cascade of effects. While the above menu system enhances customer product customization, it unintentionally complicates the menu creation process. JSON files, though commonly used for data, pose a challenge for individuals without specific training. To address this, I introduce the Menu Creator tool, simplifying and standardizing the construction of JSON files.",
+          "tags": ["JS", "React"],
+          "html": [
+            {
+              "p": "As with any design, one innovation can cause a cascading effect. The menu system shown above is great for the customers as it provides more customization of products. An unintended by-product of such a design is the act of creating said menu system becomes more complicated. Though JSON files are a common format for passing data, they are not intuitive to construct, especially for an average individual lacking training in creating such listings. To combat this issue and standardize the JSON file's construct, we create a Menu Creator tool."
+            },
+            {
+              "image": {
+                "src": "MenuCreator.png",
+                "caption": "Figure C. The staff creates and populates options on the left. A live preview of the choices are shown on the top right. Lastly, variants and mapping of variants are done on the bottom right.",
+                "width": 720
+              }
+            },
+            {
+              "p": "The tool makes the process of generating the listing considerably easier. The staff can create one of three types of options; dropdown, color picker, or checkbox. More complex options are offered when the item in question needs a 3D render of it.  The tool supports duplication and reorganization and shows a live preview of the options and their selections. Once the staff is satisfied with their choice, they can use the \"Set Price\" button to create variants needed for Shopify. Variants are what Shopify uses to set prices on a combination of options. Shopify only allows 99 variants and three options. This small selection is quite limiting for 3D printed objects with 20 color choices and multiple options.  We overcome Shopify's limitation by allowing the staff to create price buckets, allowing multiple option combinations to map to the same variant or price bucket. The buckets can be made manually or automatically through the auto-populate feature."
+            },
+            {
+              "link": {
+                "text": "For a live example of the code running, please check out the demo:",
+                "url": "https://turokhunter.github.io/Menu-Creator/",
+                "linkText": "Git Live Example"
+              }
+            },
+            {
+              "link": {
+                "text": "For those interested in the implementation, the code can be found in GitHub:",
+                "url": "https://github.com/Turokhunter/Menu-Creator",
+                "linkText": "Github"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3D design",
+      "summary": "These are some of the 3D design projects I worked on as part of a hobby turned side business. These projects fulfill the same desire to conduct research that my graduate work provides. They allow me to apply my years of research and additive manufacture experience into a new domain.",
+      "entries": [
+        {
+          "title": "Jupiter",
+          "image": "JupiterOldvsNew.png",
+          "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
+          "tags": ["CAD", "Fusion 360"],
+          "html": [
+            {
+              "p": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right."
+            },
+            {
+              "image": {
+                "src": "JupiterOldvsNew.png",
+                "caption": "Figure A. Evolution of Jupiter. Prototype version on left and final version on the right.",
+                "width": 720
+              }
+            },
+            {
+              "p": "Beyond the visual enhancement, I implemented several Quality of Life improvements and additional features. Externally, I completely redesigned the body to hide all wire channels, improved the grip, added a battery tray, and provided a comfortable placement of the trigger finger.  Internally, some changes include ease of assembling and response trigger press.  I also replaced a friction-fit clip lock mechanism with a more durable ball detent style. For a complete look at the modification, please check out the video on the left, and Jupiter's hidden features can be found in the video on the right."
+            },
+            [
+              {
+                "video": {
+                  "src": "https://www.youtube.com/embed/nvSVqwGUw-E",
+                  "height": 210,
+                  "allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 }
               },
-              {"p" : "We automatically generate the menu system from two JSON files. One JSON file describes where the STL file location, camera position, and product breakdown. The second JSON file contains information about filaments, such as cost tier and color in hex. This allows for a global filament file that makes adding and removing filament across all items easy. The left visualization provides basic capabilities such as zoom and pan and updates instantly based on the user selection from the menu on the right. The user selects a color by either the section menu or individually customizing each component in the section. The dropdown menu separates color based on the cost tier. As the visualization on the right cannot capture the exact color, or any nuances the filament might have such as glitter, mousing over each color provides a color correct swatch. When choosing a more expensive filament, the price changes and text updates to indicate the price difference in that section."},
-              { "link":
-                {
-                  "text" : "For a live example of the code running, please check Jupiter listing:",
-                  "url": "https://outofdarts.com/collections/jupiter/products/rival-jupiter-blaster-kit-build-it-yourself",
-                  "linkText" : "Jupiter Build it yourself"
-                }
-              },
-              { "link":
-                {
-                  "text" : "For those interested in the implementation, starting code can be found in GitHub:",
-                  "url": "https://outofdarts.com/collections/jupiter/products/rival-jupiter-blaster-kit-build-it-yourself",
-                  "linkText" : "Github"
+              {
+                "video": {
+                  "src": "https://www.youtube.com/embed/A4QA7Ux4oYA",
+                  "height": 210,
+                  "allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 }
               }
-            ]
-          },
-          {
-            "title": "Menu Creator",
-            "image": "MenuCreator.png",
-            "shortDesc": "Innovation in design can trigger a cascade of effects. While the above menu system enhances customer product customization, it unintentionally complicates the menu creation process. JSON files, though commonly used for data, pose a challenge for individuals without specific training. To address this, I introduce the Menu Creator tool, simplifying and standardizing the construction of JSON files.",
-            "tags":["JS", "React"],
-            "html" : [
-              { "p" : "As with any design, one innovation can cause a cascading effect. The menu system shown above is great for the customers as it provides more customization of products. An unintended by-product of such a design is the act of creating said menu system becomes more complicated. Though JSON files are a common format for passing data, they are not intuitive to construct, especially for an average individual lacking training in creating such listings. To combat this issue and standardize the JSON file's construct, we create a Menu Creator tool."},
-              { "image":
-                {
-                  "src": "MenuCreator.png",
-                  "caption": "Figure C. The staff creates and populates options on the left. A live preview of the choices are shown on the top right. Lastly, variants and mapping of variants are done on the bottom right.",
-                  "width" : 720
-                }
-              },
-              {"p" : "The tool makes the process of generating the listing considerably easier. The staff can create one of three types of options; dropdown, color picker, or checkbox. More complex options are offered when the item in question needs a 3D render of it.  The tool supports duplication and reorganization and shows a live preview of the options and their selections. Once the staff is satisfied with their choice, they can use the \"Set Price\" button to create variants needed for Shopify. Variants are what Shopify uses to set prices on a combination of options. Shopify only allows 99 variants and three options. This small selection is quite limiting for 3D printed objects with 20 color choices and multiple options.  We overcome Shopify's limitation by allowing the staff to create price buckets, allowing multiple option combinations to map to the same variant or price bucket. The buckets can be made manually or automatically through the auto-populate feature."},
-              { "link":
-                {
-                  "text" : "For a live example of the code running, please check out the demo:",
-                  "url": "https://turokhunter.github.io/Menu-Creator/",
-                  "linkText" : "Git Live Example"
-                }
-              },
-              { "link":
-                {
-                  "text" : "For those interested in the implementation, the code can be found in GitHub:",
-                  "url": "https://github.com/Turokhunter/Menu-Creator",
-                  "linkText" : "Github"
-                }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "3D design",
-        "summary" : "These are some of the 3D design projects I worked on as part of a hobby turned side business. These projects fulfill the same desire to conduct research that my graduate work provides. They allow me to apply my years of research and additive manufacture experience into a new domain.",
-        "entries": [
-          {
-            "title": "Jupiter",
-            "image": "JupiterOldvsNew.png",
-            "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
-            "tags":["CAD", "Fusion 360"],
-            "html" : [
-              { "p" : "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right."},
-              { "image":
-                {
-                  "src": "JupiterOldvsNew.png",
-                  "caption": "Figure A. Evolution of Jupiter. Prototype version on left and final version on the right.",
-                  "width" : 720
-                }
-              },
-              { "p" : "Beyond the visual enhancement, I implemented several Quality of Life improvements and additional features. Externally, I completely redesigned the body to hide all wire channels, improved the grip, added a battery tray, and provided a comfortable placement of the trigger finger.  Internally, some changes include ease of assembling and response trigger press.  I also replaced a friction-fit clip lock mechanism with a more durable ball detent style. For a complete look at the modification, please check out the video on the left, and Jupiter's hidden features can be found in the video on the right."},
-              [
-                { "video": {
-                  "src":"https://www.youtube.com/embed/nvSVqwGUw-E",
-                  "height": 210,
-                  "allow" : "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  }
-                },
-                { "video": {
-                  "src":"https://www.youtube.com/embed/A4QA7Ux4oYA",
-                  "height": 210,
-                  "allow" : "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  }
-                }
-              ],
-              { "p" : "The Jupiter has released to high praise and, as of the time of writing this, has over 2 million collective views. A review of the blaster can be found in the video below from one of the most popular Nerf channels."},
-              { "video": {
-                "src":"https://www.youtube.com/embed/Yv2yhSZJvL4",
+            ],
+            {
+              "p": "The Jupiter has released to high praise and, as of the time of writing this, has over 2 million collective views. A review of the blaster can be found in the video below from one of the most popular Nerf channels."
+            },
+            {
+              "video": {
+                "src": "https://www.youtube.com/embed/Yv2yhSZJvL4",
                 "width": 374,
                 "height": 210,
-                "allow" : "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-
-                }
+                "allow": "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               }
-            ] 
-          }
-        ]
-      }
-    ],
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "publications": {
-    "journal" : [
+    "journal": [
       {
         "title": "Investigating the visual utility of differentially private scatterplots",
         "year": "2023",
@@ -259,7 +263,7 @@
           "Melanie Tory",
           "Cody Dunne"
         ],
-        "hashLink":"differentially",
+        "hashLink": "differentially",
         "venue": "IEEE Transactions on Visualization and Computer Graphics—TVCG",
         "abstract": "Increasingly, visualization practitioners are working with, using, and studying private and sensitive data. There can be many stakeholders interested in the resulting analyses-but widespread sharing of the data can cause harm to individuals, companies, and organizations. Practitioners are increasingly turning to differential privacy to enable public data sharing with a guaranteed amount of privacy. Differential privacy algorithms do this by aggregating data statistics with noise, and this now-private data can be released visually with differentially private scatterplots. While the private visual output is affected by the algorithm choice, privacy level, bin number, data distribution, and user task, there is little guidance on how to choose and balance the effect of these parameters. To address this gap, we had experts examine 1,200 differentially private scatterplots created with a variety of parameter choices and tested their ability to see aggregate patterns in the private output (i.e. the visual utility of the chart). We synthesized these results to provide easy-to-use guidance for visualization practitioners releasing private data through scatterplots. Our findings also provide a ground truth for visual utility, which we use to benchmark automated utility metrics from various fields. We demonstrate how multi-scale structural similarity (MS-SSIM), the metric most strongly correlated with our study's utility results, can be used to optimize parameter selection. A free copy of this paper along with all supplemental materials is available at <a href=\"https://osf.io/wej4s/\">osf.io/wej4s</a>.",
         "teaserImg": "Panavas2023InvestigatingVisualUtility.png",
@@ -278,10 +282,10 @@
       {
         "title": "Concise Provenance of Interactive Network Analysis",
         "authors": ["Takanori Fujiwara", "Tarik Crnovrsanin", "Kwan-Liu Ma"],
-        "hashLink":"Concise-Provenance",
-        "venue": "Visual Informatics 2(4), pp. 213--224",
-        "year":"2018",
-        "url" : "https://www.sciencedirect.com/science/article/pii/S2468502X1830055X",
+        "hashLink": "Concise-Provenance",
+        "venue": "Visual Informatics 2(4)",
+        "year": "2018",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2468502X1830055X",
         "image": "concise.png",
         "materials": {
           "PDF": "https://pdf.sciencedirectassets.com/315710/1-s2.0-S2468502X19X00029/1-s2.0-S2468502X1830055X/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjECgaCXVzLWVhc3QtMSJHMEUCIQDB2Z9%2BdZA51XDp1MU7OoEbg1jhUoawlqCVwLvazAWZwQIgGxxg3mQD%2F31ghJ3aE45tobyxHhy3Y8NukuemHC%2BGk5cqvAUI4P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgwwNTkwMDM1NDY4NjUiDLoQ0goZ25rMwlg6eiqQBdi1oRlqBn3yP2ESQmXCYWh1NqUewfTjG1XWAzHhD3zzrpCaw1JihNeAuVWm0Arctz%2BBzA%2BFEqOc0NqUn8AzYX3KDM2VGMDGuIlIE57dK7IX%2FZF7KTm2J2%2FOmcHaozanaKhSVxUOappxfCcPnl0LdSQSEXPhcMRAM3Yum2Do2MGpUZ0Hy8y8J9qLe1KncvwkSG88PMdbPFGtSgW0xzr2%2Byxo4o8gP0yfvAosg08Cq0W93M7er3c1ymR7P1ufW3QrPzMwxNAdSu8MnkSPwrVH2PNP4Ou0gmoPTBHc5ph7Xpn2ZNBfLzxQqdXPJaOekHibdHTA7NAdls6aqQ1wdO7kIUi%2FhbDuJluMFne7QFRt%2FI2rPXbDNSKC3Yv1YtvSqcEox%2Fqg4CvUyfCrG6ZLUfrAZs3aXA11qWMrvzIRFjxAWnpi43bnmxNe%2Bhl6KmnaRKM5JUjTTPuTeZ96ctXOVZ6ukxyJqPiq2LVcP21J9s8kdLSVaD1on3rIMWPOHwuW1aJkIB6thp5adrGwl5%2Bc%2Frka0Qu%2FNtW8e6UixepuZVMYwWhAesA4u5SvtfcMVpaRjl7ZptJ1N4t4noncWLk%2FgNohJkfCEWkIYMZ%2BVcf4cCjaHtNy%2FT1aXacsXth%2Fp29kDO%2B6FHxqZFm4pj2RKGO2S4AlR7zxPAkqwGsdefj%2FkH9m8Xij9uNXoO4X%2FbH1QxAWTBD9WGPIThn2FoWNUV7JrahIRisbhI1cQmA%2BAbEE%2F2hE5euvLU5mgqtZWwpWNxREVO3G3mqTX42n4v1bwNgoCBVEAK1izfmGq%2F6w3pG9%2FgeFZZQ%2B6zLuwcAItCaPcM8RBXvzhRjwFAroAp2Tr5XJ7EIPBcnLTZyq5yi%2FVVAsEPVrYUciMMW9260GOrEBkS1riFaAUU5r4gwEEGr0fQMAFjlL5M2LXBZM1r3xqj6JV6SOqIQdWlFfjmKVeLSqeynVm4sRMIcs%2BUAVD9fWoeaH9oKJSEodzFX0AVEgljwmRBG21MXz4yesfq5Kw8Ouh2zR4gOMCtdRnT3VgaFt%2B%2Fz63Q89TbLUaPBiIo9SlENTc%2BxUGdp8dfESAeqhGDCUhpvBfJpqHeqG1lZVqg2VWt41m3AT%2F%2BNMV%2FLPvogHrWEQ&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240129T000146Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYRV2YN76X%2F20240129%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=971b4d4825082005757b00c0fd5427ee00c8ca1b978b3ac2239c8abedf1bd22a&hash=41096012d72250f872f05665112ccb0624524162830dd6d6d47efd45184af1d9&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S2468502X1830055X&tid=spdf-cf08df02-0e56-4f06-8e30-2917859f4907&sid=cfcdf5324fce734f517b8c27252702c23d67gxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=17105d550505555d07&rr=84cd33dbc89f4d0b&cc=us",
@@ -293,11 +297,11 @@
       },
       {
         "title": "An Incremental Layout Method for Visualizing Online Dynamic Graphs",
-        "authors":["Tarik Crnovrsanin", "Jacqueline Chu", "Kwan-Liu Ma"],
-        "hashLink":"Incremental-Layout",
-        "venue": "Journal Graph Algorithm Application (JGAA), 21(1), pp.55--80",
-        "year":"2017",
-        "url" : "http://jgaa.info/accepted/2017/CrnovrsaninChuMa2017.21.1.pdf",
+        "authors": ["Tarik Crnovrsanin", "Jacqueline Chu", "Kwan-Liu Ma"],
+        "hashLink": "Incremental-Layout",
+        "venue": "Journal Graph Algorithm Application (JGAA), 21(1)",
+        "year": "2017",
+        "url": "http://jgaa.info/accepted/2017/CrnovrsaninChuMa2017.21.1.pdf",
         "image": "Incremental.png",
         "materials": {
           "PDF": "https://jgaa.info/accepted/2017/CrnovrsaninChuMa2017.21.1.pdf",
@@ -306,11 +310,17 @@
       },
       {
         "title": "Visualization Techniques for Categorical Analysis of Social Networks with Multiple Edge Sets",
-        "authors":["Tarik Crnovrsanin", "Chris Muelder", "Bob Faris", "Diane Felmlee", "Kwan-Liu Ma"],
-        "hashLink":"Categorical-Networks",
-        "venue": "Social Networks, vol. 37, pp. 56--64",
-        "year":"2014",
-        "url" : "https://www.sciencedirect.com/science/article/abs/pii/S0378873313001044",
+        "authors": [
+          "Tarik Crnovrsanin",
+          "Chris Muelder",
+          "Bob Faris",
+          "Diane Felmlee",
+          "Kwan-Liu Ma"
+        ],
+        "hashLink": "Categorical-Networks",
+        "venue": "Social Networks, vol. 37",
+        "year": "2014",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378873313001044",
         "image": "SocialNetworks.png",
         "materials": {
           "PDF": "https://www.sciencedirect.com/science/article/abs/pii/S0378873313001044",
@@ -319,11 +329,11 @@
       },
       {
         "title": "Visual Reasoning about Social Networks using Centrality Sensitivities",
-        "authors":["Carlos D. Correa", "Tarik Crnovrsanin", "Kwan-Liu Ma"],
-        "hashLink":"Sensitivities-Networks",
-        "venue": "IEEE Transactions Visualization Computer Graph(TVCG), vol. 18, pp. 106--120",
-        "year":"2012",
-        "url" : "https://ieeexplore.ieee.org/document/5669304",
+        "authors": ["Carlos D. Correa", "Tarik Crnovrsanin", "Kwan-Liu Ma"],
+        "hashLink": "Sensitivities-Networks",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics—TVCG",
+        "year": "2012",
+        "url": "https://ieeexplore.ieee.org/document/5669304",
         "image": "VisualReasoning.png",
         "materials": {
           "PDF": "https://ieeexplore.ieee.org/document/5669304",
@@ -332,7 +342,42 @@
         }
       }
     ],
-    "conference":[
+    "conference": [
+      {
+        "urlId": "Puerta2024EffectOrientationReadability",
+        "title": "The effect of orientation on the readability and comfort of 3D-printed braille",
+        "year": "2024",
+        "authors": [
+          "Eduardo Puerta",
+          "Tarik Crnovrsanin",
+          "Laura South",
+          "Cody Dunne"
+        ],
+        "venue": "In Proc. CHI Conference on Human Factors in Computing Systems—CHI",
+        "abstract": "Fused Deposition Modeling (FDM) is a low-cost method of 3D printing that involves stacking horizontal layers of plastic. FDM is used to produce tactile graphics and interfaces for people with visual impairments. Unfortunately, the print orientation can alter the structure and quality of braille and text. The difference between printing braille vertically and horizontally has been documented. However, we found no comprehensive study of these angles or the angles in between, nor any study providing a quantitative and qualitative user evaluation. We conducted two mixed-methods studies to evaluate the performance of braille printed at different angles. We measured reading time and subjective preference and performed a thematic analysis of participants' responses. Our participants were faster using and preferred 75° and vertical braille over horizontal braille. These results provide makers with guidelines for creating models with readable 3D-printed braille.",
+        "teaserImg": "braillethumbnail.png",
+        "image": "braillethumbnail.png",
+        "imageDesc": "The shape of a 3D-printed object is affected by its orientation, as shown by the top left image. Therefore, we designed two experiments to determine if this impacted the experience of braille readers. These experiments differed by whether the stimuli were sanded, as shown in the top middle illustration. On the top right is a sketch of our experimental setup. Finally, below are some photographs of the experiment stimuli. ",
+        "altText": "Hand-drawn sketches of various elements of the experiment. On the left, the drawings depict the differences between a braille cell's theoretical and actual shapes. In the middle, the sketches show a depiction of a sander, and the annotations read: two sanded experiments (sanded and unsanded). On the right, the drawings show the experimental setup, including a sketch of the table and the page of braille with the stimulus. At the bottom are a side view of the printer with plates printed at various angles, and a front view of the braille in one print.",
+        "award": "",
+        "materials": {
+          "PDF": "https://osf.io/preprints/osf/vbqsg/download",
+          "Preprint": "https://osf.io/preprints/osf/vbqsg",
+          "DOI": "https://doi.org/10.1145/3613904.3642719",
+          "Supplement": "https://osf.io/t2rbq/",
+          "Preregistration": "https://osf.io/mcyv5",
+          "Code": "",
+          "Homepage": "",
+          "Video preview": "",
+          "Demo video": "",
+          "Video presentation": "",
+          "Award": "",
+          "Reproducibility report": "",
+          "University news": "",
+          "News": "",
+          "Other links": ""
+        }
+      },
       {
         "title": "Indy Survey Tool: A framework to unearth correlations in survey data",
         "year": "2023",
@@ -342,8 +387,8 @@
           "Connor Wilson",
           "Cody Dunne"
         ],
-        "hashLink":"Indy-Survey",
-        "venue": "In Proc. IEEE Visualization Conference—VIS",
+        "hashLink": "Indy-Survey",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics—VIS",
         "abstract": "Survey companion websites allow users to explore collected survey information more deeply, as well as update or add entries for papers. These sites can help information stay relevant past the original release date of the survey paper. However, creating and maintaining a website can be laborious and difficult, especially when authors might not be experienced with programming. We introduce Indy Survey Tool to help authors develop companion websites for survey papers across diverse fields of study. The tool's core aim is to identify correlations between categorizations of papers. To accomplish this, the tool offers multiple combined filters and correlation matrix visualizations that enable users to explore the data from diverse perspectives. The tool's visualizations, list of papers, and filters are harmoniously integrated and highly responsive, providing users with feedback based on their selections. Identifying correlations in survey papers is a pivotal aspect of research, as it can enable the recognition of common combinations of categorizations within the papers—as well as highlight any omissions. The versatility of Indy Survey Tool enables researchers to delve into the correlations between categorizations in survey data, an essential aspect of research that can reveal gaps in the literature and highlight promising areas for future exploration. A preprint and supplemental material for the paper can be found at <a href=\"https://osf.io/tdhqn\">osf.io/tdhqn</a>.",
         "teaserImg": "Crnovrsanin2023IndySurveyTool.png",
         "image": "Crnovrsanin2023IndySurveyTool.png",
@@ -354,7 +399,7 @@
           "Preprint": "https://osf.io/um9gs/",
           "Supplement": "https://osf.io/tdhqn/",
           "Code": "https://github.com/VisDunneRight/Indy-Survey-Tool",
-          "DOI":"https://doi.org/10.1109/VIS54172.2023.00038"
+          "DOI": "https://doi.org/10.1109/VIS54172.2023.00038"
         }
       },
       {
@@ -367,7 +412,7 @@
           "Tarik Crnovrsanin",
           "Cody Dunne"
         ],
-        "hashLink":"Collection-Benchmark",
+        "hashLink": "Collection-Benchmark",
         "venue": "Poster at Graph Drawing and Network Visualization—GD Posters",
         "abstract": "We built a website to help graph drawing researchers find benchmark datasets to use for evaluating graph layout algorithms.",
         "teaserImg": "DiBartolomeo2023CollectionBenchmarkDatasets.png",
@@ -397,8 +442,8 @@
           "Caglar Yildirim",
           "Cody Dunne"
         ],
-        "hashLink":"IA-Review",
-        "venue": "IEEE Transactions on Visualization and Computer Graphics—VIS/TVCG",
+        "hashLink": "IA-Review",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics—TVCG",
         "abstract": "Immersive analytics has emerged as a promising research area, leveraging advances in immersive display technologies and techniques, such as virtual and augmented reality, to facilitate data exploration and decision-making. This paper presents a systematic literature review of 73 studies published between 2013-2022 on immersive analytics systems and visualizations, aiming to identify and categorize the primary dimensions influencing their design. We identified five key dimensions: Academic Theory and Contribution, Immersive Technology, Data, Spatial Presentation, and Visual Presentation. Academic Theory and Contribution assess the motivations behind the works and their theoretical frameworks. Immersive Technology examines the display and input modalities, while Data dimension focuses on dataset types and generation. Spatial Presentation discusses the environment, space, embodiment, and collaboration aspects in IA, and Visual Presentation explores the visual elements, facet and position, and manipulation of views. By examining each dimension individually and cross-referencing them, this review uncovers trends and relationships that help inform the design of immersive systems visualizations. This analysis provides valuable insights for researchers and practitioners, offering guidance in designing future immersive analytics systems and shaping the trajectory of this rapidly evolving field. A free copy of this paper and all supplemental materials are available at <a href=\"https://osf.io/5ewaj\">osf.io/5ewaj</a>.",
         "teaserImg": "Saffo2023UnravelingDesignSpace.png",
         "image": "Saffo2023UnravelingDesignSpace.png",
@@ -425,7 +470,7 @@
           "Michelle A. Borkin",
           "Cody Dunne"
         ],
-        "hashLink":"Juvenile-Perception",
+        "hashLink": "Juvenile-Perception",
         "venue": "In Proc. CHI Conference on Human Factors in Computing Systems—CHI",
         "abstract": "Data visualization is pervasive in the lives of children as they encounter graphs and charts in early education and online media. In spite of this prevalence, our guidelines and understanding of how children perceive graphs stem primarily from studies conducted with adults. Previous psychology and education research indicates that children’s cognitive abilities are different from adults. Therefore, we conducted a classic graphical perception study on a population of children aged 8–12 enrolled in the Ivy After School Program in Boston, MA and adult computer science students enrolled in Northeastern University to determine how accurately participants judge differences in particular graphical encodings.We record the accuracy of participants’ answers for five encodings most commonly used with quantitative data. The results of our controlled experiment show that children have remarkably similar graphical perception to adults, but are consistently less accurate at interpreting the visual encodings. We found similar effectiveness rankings, relative differences in error between the different encodings, and patterns of bias across encoding types. Based on our findings, we provide design guidelines and recommendations for creating visualizations for children. This paper and all supplemental materials are available at <a href=\"https://osf.io/ygrdv/\">osf.io/ygrdv</a>.",
         "teaserImg": "Panavas2022JuvenileGraphicalPerception.png",
@@ -452,8 +497,8 @@
           "Melanie Tory",
           "Cody Dunne"
         ],
-        "hashLink":"Visual-Differentially",
-        "venue": "Poster at IEEE VIS—VIS Posters",
+        "hashLink": "Visual-Differentially",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics—VIS Posters",
         "abstract": "Differentially private scatterplots enable the plotting of two attributes while guaranteeing a specified level of privacy. What a user sees from the scatterplot can be affected by which privacy algorithm is used and how it adds noise to the data. However, there is no existing work that quantifies this effect. We present the results of a pilot data study that compares the visual utility of algorithms that create differentially private scatterplots. We compare five popular algorithms across a range of parameters. The results indicate that DAWA and Geometric Truncated are the best algorithms for visual utility. Future research could focus on optimizing the different parameters to maximize utility of the visual representations.",
         "teaserImg": "Panavas2022VisualUtilityEvaluation.png",
         "image": "Panavas2022VisualUtilityEvaluation.png",
@@ -478,10 +523,10 @@
           "David Saffo",
           "Cody Dunne"
         ],
-        "hashLink":"BGP-STAR",
-        "venue": "IEEE Transactions on Visualization and Computer Graphics—VIS, pp.1--11",
-        "year":"2022",
-        "url" : "https://ieeexplore.ieee.org/document/9904432",
+        "hashLink": "BGP-STAR",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics—VIS",
+        "year": "2022",
+        "url": "https://ieeexplore.ieee.org/document/9904432",
         "image": "Raynor2022StateArtBgp.png",
         "materials": {
           "PDF": "https://osf.io/pkqc9/download",
@@ -495,11 +540,15 @@
       },
       {
         "title": "Staged Animation Strategies for Online Dynamic Networks",
-        "authors":["Tarik Crnovrsanin", "Shilpika S Chandrasegaran", "Kwan-Liu Ma"],
-        "hashLink":"Staged-Dynamic",
+        "authors": [
+          "Tarik Crnovrsanin",
+          "Shilpika S Chandrasegaran",
+          "Kwan-Liu Ma"
+        ],
+        "hashLink": "Staged-Dynamic",
         "venue": "IEEE Information Visualization Conference (InfoVis)",
-        "year":"2020",
-        "url" : "https://arxiv.org/abs/2009.02005",
+        "year": "2020",
+        "url": "https://arxiv.org/abs/2009.02005",
         "image": "stagedAnimation.png",
         "materials": {
           "PDF": "https://ieeexplore.ieee.org/document/9231268",
@@ -509,11 +558,16 @@
       },
       {
         "title": "An Interactive System for Exploring Historical Fire Data",
-        "authors":["Maksim Gomov", "Tarik Crnovrsanin", "Keshav Dasu", "Kwan-Liu Ma"],
-        "hashLink":"Fire-System",
-        "venue": "IEEE Pacific Visualization Symposium (PacificVis), pp. 277--281",
-        "year":"2019",
-        "url" : "https://ieeexplore.ieee.org/document/8781588",
+        "authors": [
+          "Maksim Gomov",
+          "Tarik Crnovrsanin",
+          "Keshav Dasu",
+          "Kwan-Liu Ma"
+        ],
+        "hashLink": "Fire-System",
+        "venue": "IEEE Pacific Visualization Symposium (PacificVis)",
+        "year": "2019",
+        "url": "https://ieeexplore.ieee.org/document/8781588",
         "image": "Historical.png",
         "materials": {
           "PDF": "https://ieeexplore.ieee.org/document/8781588",
@@ -523,8 +577,8 @@
       {
         "title": "What Would a Graph Look Like in this Layout? A Machine Learning Approach to Large Graph Visualization",
         "authors": ["Oh-Hyun Kwon", "Tarik Crnovrsanin", "Kwan-Liu Ma"],
-        "hashLink":"GraphML",
-        "venue": "IEEE Transaction Visualization Computer Graph, 24(1), pp. 478--488",
+        "hashLink": "GraphML",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics—VIS",
         "year": "2018",
         "image": "GraphLook.png",
         "materials": {
@@ -538,11 +592,11 @@
       },
       {
         "title": "An Incremental Layout Method for Visualizing Online Dynamic Graphs",
-        "authors":["Tarik Crnovrsanin", "Jacqueline Chu", "Kwan-Liu Ma"],
-        "hashLink":"Incremental-Layout-Conference",
-        "venue": "Conference on Graph Drawing and Network Visualization, pp. 16--29",
-        "year":"2015",
-        "url" : "https://vis.cs.ucdavis.edu/papers/tarik_incremental.pdf",
+        "authors": ["Tarik Crnovrsanin", "Jacqueline Chu", "Kwan-Liu Ma"],
+        "hashLink": "Incremental-Layout-Conference",
+        "venue": "Conference on Graph Drawing and Network Visualization",
+        "year": "2015",
+        "url": "https://vis.cs.ucdavis.edu/papers/tarik_incremental.pdf",
         "image": "Incremental.png",
         "award": "GD 2015 Best paper award",
         "materials": {
@@ -553,53 +607,63 @@
       },
       {
         "title": "A System for Visual Analysis of Radio Signal Data",
-        "authors":["Tarik Crnovrsanin", "Chris Muelder", "Kwan-Liu Ma"],
-        "hashLink":"Radio-System",
-        "venue": "Conference on Visual Analytics Science and Technology (VAST), pp. 33--42",
-        "year":"2014",
-        "url" : "https://ieeexplore.ieee.org/document/7042479/",
-        "materials":{
+        "authors": ["Tarik Crnovrsanin", "Chris Muelder", "Kwan-Liu Ma"],
+        "hashLink": "Radio-System",
+        "venue": "Conference on Visual Analytics Science and Technology (VAST)",
+        "year": "2014",
+        "url": "https://ieeexplore.ieee.org/document/7042479/",
+        "materials": {
           "DOI": "https://doi.org/10.1109/VAST.2014.7042479",
-          "Video Preview" : "https://vimeo.com/104495491"
+          "Video Preview": "https://vimeo.com/104495491"
         },
         "image": "RadioSignal.png"
       },
       {
         "title": "Stimulating a Blink: Reduction of Eye Fatigue with Visual Stimulus",
-        "hashLink":"Blink-Reduction",
-        "authors":["Tarik Crnovrsanin", "Yang Wang", "Kwan-Liu Ma"],
-        "venue": "Conference on Human Factors in Computing Systems(CHI), pp. 33--42",
-        "year":"2014",
-        "url" : "http://vis.cs.ucdavis.edu/papers/blink.pdf",
+        "hashLink": "Blink-Reduction",
+        "authors": ["Tarik Crnovrsanin", "Yang Wang", "Kwan-Liu Ma"],
+        "venue": "In Proc. CHI Conference on Human Factors in Computing Systems—CHI",
+        "year": "2014",
+        "url": "http://vis.cs.ucdavis.edu/papers/blink.pdf",
         "image": "Stimulating.png",
-        "materials":{
+        "materials": {
           "PDF": "http://vis.cs.ucdavis.edu/papers/blink.pdf",
           "DOI": "https://doi.org/10.1145/2556288.2557129",
-          "Video Preview" : "https://www.youtube.com/watch?v=WXFYEfxMF8I"
+          "Video Preview": "https://www.youtube.com/watch?v=WXFYEfxMF8I"
         }
       },
       {
         "title": "Egocentric Storylines for Visual Analysis of Large Dynamic Graphs",
-        "hashLink":"Egocentric-Storylines",
-        "authors":["Chris Muelder", "Tarik Crnovrsanin", "Arnaud Sallaberry", "Kwan-Liu Ma"],
-        "venue": "IEEE Workshop on Big Data Visualization, pp. 56--62",
-        "year":"2013",
-        "url" : "https://ieeexplore.ieee.org/document/6691715",
+        "hashLink": "Egocentric-Storylines",
+        "authors": [
+          "Chris Muelder",
+          "Tarik Crnovrsanin",
+          "Arnaud Sallaberry",
+          "Kwan-Liu Ma"
+        ],
+        "venue": "IEEE Workshop on Big Data Visualization",
+        "year": "2013",
+        "url": "https://ieeexplore.ieee.org/document/6691715",
         "image": "Egocentric.png",
-        "materials":{
+        "materials": {
           "PDF": "https://vis.cs.ucdavis.edu/papers/bdv2013-muelder.pdf",
           "DOI": "https://doi.org/10.1109/BigData.2013.6691715"
         }
       },
       {
         "title": "Visual Recommendations for Network Navigation",
-        "authors":["Tarik Crnovrsanin", "Isaac Liao", "Yingcai Wu", "Kwan-Liu Ma"],
-        "hashLink":"Visual-Recommendations",
-        "venue": "In Proceedings of the Eurovis, vol. 30, pp. 1081--1090",
-        "year":"2011",
-        "url" : "http://vis.cs.ucdavis.edu/papers/visual_recommendation.pdf",
+        "authors": [
+          "Tarik Crnovrsanin",
+          "Isaac Liao",
+          "Yingcai Wu",
+          "Kwan-Liu Ma"
+        ],
+        "hashLink": "Visual-Recommendations",
+        "venue": "In Proceedings of the Eurovis, vol. 30",
+        "year": "2011",
+        "url": "http://vis.cs.ucdavis.edu/papers/visual_recommendation.pdf",
         "image": "Recommendations.png",
-        "materials":{
+        "materials": {
           "PDF": "https://onlinelibrary.wiley.com/doi/10.1111/j.1467-8659.2011.01957.x",
           "PrePrint": "http://vis.cs.ucdavis.edu/papers/visual_recommendation.pdf",
           "DOI": "http://dx.doi.org/10.1111/j.1467-8659.2011.01957.x"
@@ -607,29 +671,73 @@
       },
       {
         "title": "Social Network Discovery based on Sensitivity Analysis",
-        "authors":["Tarik Crnovrsanin", "Carlos D. Correa", "Kwan-Liu Ma"],
-        "hashLink":"Sensitivity-Discovery",
-        "venue": "Proceedings International Conference of Advances in Social Networks Analysis and Mining (ASONAM), pp. 107--112",
-        "year":"2009",
-        "url" : "https://ieeexplore.ieee.org/document/5231923",
+        "authors": ["Tarik Crnovrsanin", "Carlos D. Correa", "Kwan-Liu Ma"],
+        "hashLink": "Sensitivity-Discovery",
+        "venue": "Proceedings International Conference of Advances in Social Networks Analysis and Mining (ASONAM)",
+        "year": "2009",
+        "url": "https://ieeexplore.ieee.org/document/5231923",
         "image": "Sensitivity.png",
-        "materials":{
+        "materials": {
           "PDF": "https://ieeexplore.ieee.org/document/5231923",
           "DOI": "https://doi.org/10.1109/ASONAM.2009.56"
         }
       },
       {
         "title": "Proximity-based Visualization of Movement Trace Data",
-        "authors":["Tarik Crnovrsanin", "Chris Muelder", "Carlos D. Correa", "Kwan-Liu Ma"],
-        "hashLink":"Proximity-Movement",
-        "venue": "Conference on Visual Analytics Science and Technology (VAST), pp. 11--18",
-        "year":"2009",
-        "url" : "https://ieeexplore.ieee.org/document/5332593",
+        "authors": [
+          "Tarik Crnovrsanin",
+          "Chris Muelder",
+          "Carlos D. Correa",
+          "Kwan-Liu Ma"
+        ],
+        "hashLink": "Proximity-Movement",
+        "venue": "Conference on Visual Analytics Science and Technology (VAST)",
+        "year": "2009",
+        "url": "https://ieeexplore.ieee.org/document/5332593",
         "image": "Proximity.png",
-        "materials":{
+        "materials": {
           "PDF": "https://ieeexplore.ieee.org/document/5332593",
           "PrePrint": "http://www.carloscorrea.com/docs/proxivis.pdf",
           "DOI": "https://doi.org/10.1109/VAST.2009.5332593"
+        }
+      }
+    ],
+    "others": [
+      {
+        "title": "Method and apparatus for providing contextual rendering of a map",
+        "authors": [
+          "Vidya Setlur",
+          "Cynthia Kuo",
+          "Agathe Battestini",
+          "Tarik Crnovrsanin"
+        ],
+        "hashLink": "context-map",
+        "venue": "US Patent",
+        "year": "2017",
+        "url": "https://patents.google.com/patent/US9710961B2/en",
+        "image": "MethodMap.png",
+        "materials": {
+          "PDF": "https://patentimages.storage.googleapis.com/00/53/09/26d33d301fbc1e/US9710961.pdf"
+        }
+      },
+      {
+        "title": "Cell phone mini challenge award: Intuitive social network graphs visual analytics of cell phone data using mobivis and ontovis",
+        "authors": [
+          "Carlos D Correa",
+          "Tarik Crnovrsanin",
+          "Christopher Muelder",
+          "Zeqian Shen",
+          "Ryan Armstrong",
+          "James Shearer",
+          "Kwan-Liu Ma"
+        ],
+        "hashLink": "cell-award",
+        "venue": "IEEE Symposium on Visual Analytics Science and Technology",
+        "year": "2008",
+        "url": "https://ieeexplore.ieee.org/abstract/document/4677391",
+        "image": "cell-phone.png",
+        "materials": {
+          "PDF": "https://ieeexplore.ieee.org/abstract/document/4677391"
         }
       }
     ]
@@ -669,11 +777,10 @@
     },
     {
       "title": "Intuitive Social Network Graphs in VAST 2008 Challenge",
-      "summary": "Recieved in 2008 with Carlos D. Correa, Chris Muelder, James Shearer, Kwan-Liu Ma." 
+      "summary": "Recieved in 2008 with Carlos D. Correa, Chris Muelder, James Shearer, Kwan-Liu Ma."
     }
   ],
-  "press": [
-  ],
+  "press": [],
   "languages": [],
   "interests": [],
   "references": []
