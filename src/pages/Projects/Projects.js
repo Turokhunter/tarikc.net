@@ -3,6 +3,7 @@ import { useState } from "react";
 import Layout from "../../components/Layout";
 import { Figure, Row, Col, Button, Modal } from "react-bootstrap";
 import { CardRow } from "./styles";
+import Materials from "../Publications/Materials";
 
 import {
   MyCard,
@@ -33,12 +34,19 @@ const Html = ({ ele }) => {
         </Button>
       </Col>
     );
+  } else if (ele.materials) {
+    return <Materials materials={ele.materials} />;
   } else if (ele.image) {
     var image = ele.image;
     return (
-      <Col xs={12} md={8}>
+      <Col>
         <Figure>
           <Figure.Image
+            style={{
+              marginLeft: "auto",
+              marginRight: "auto",
+              display: "block",
+            }}
             height={image.height ? image.height : "100%"}
             width={image.width ? image.width : "100%"}
             src={image.src}
@@ -115,7 +123,7 @@ const Projects = ({ user }) => {
   return (
     <Layout user={user}>
       {user.projects.map((section) => (
-        <>
+        <div key={section.title}>
           <Row>
             <h1>{section.title}</h1>
           </Row>
@@ -128,7 +136,7 @@ const Projects = ({ user }) => {
               // <Entry entry={entry} />
             ))}
           </CardRow>
-        </>
+        </div>
       ))}
     </Layout>
   );

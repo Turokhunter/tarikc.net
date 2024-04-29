@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Dr. Tarik Crnovrsanin",
-    "picture": "CrnovrsaninTarik_Northeastern_Photo.jpg",
+    "picture": "CrnovrsaninTarik_Northeastern_Photov2.jpg",
     "label": "",
     "headline": "",
     "summary": "I am a Senior Software engineer and previously a PostDoc with Cody Dunne at Data Visualization at Khoury of Northeastern University. My research focuses on visualizations, techniques, and systems for various datasets, including static and dynamic networks, radio signals, and fire data. I'm an past ORISE fellowship participant in explainable AI for drone detection. \n\nMy enjoyment of learning and conducting research extends beyond my graduate career. I combine my love of research and 7+ years of Fused Deposition Modeling (FDM) printing to develop new flinging foam methods. I 3D design and engineer products from concept to full production. I also utilize my visualization skills to create better customer shopping experiences by providing UI to fully visualize/render and customize their purchases. ",
@@ -43,30 +43,46 @@
   ],
   "selectedprojects": [
     {
-      "title": "",
-      "summary": "",
-      "image": "",
-      "link": ""
+      "title": "Amoeba: Visual metaphor for discourse forums",
+      "image": "Amoeba.png",
+      "summary": "Discussion forums allow individuals across the world to express their opinions on a variety of topics. We introduce Amoebas, a visual metaphor for discussion forum threads that allows researchers to examine social interactions, compare thread structure, and make hypotheses about the patterns or trends of these forums.",
+      "link": "/projects#research",
+      "position": "50% 50%"
+    },
+    {
+      "title": "SetMLVis: Set Visualization for Object Detection",
+      "image": "dac.png",
+      "summary": "Traditional metrics like average precision and recall may not fully capture performance differences. We developed an interactive system called SetMLVis that addresses the challenges in comparing object detection models by proposing a novel approach using set visualizations for model-to-model comparison.",
+      "link": "/projects#research",
+      "position": "50% 50%"
+    },
+    {
+      "title": "Product Customizer",
+      "image": "Color-picker-v2.png",
+      "summary": "Created a customizer tool for customers to make it easier to see what the 3D-printed part will look like with their color selections. Over 90% of products on outofdarts.com use my customizer code. ",
+      "link": "/projects#design"
     }
   ],
   "selectedpapers": [
     {
-      "title": "Drawing Graphs with Multi-level Maps",
-      "summary": "We present a method for drawing a graph with superimposed multi-level maps. Our method uses either a provided or derived hierarchy of the graph to create sub-graph regions of the map at varying zoom levels.",
-      "image": "mgmap.png",
-      "link": "/publications"
+      "title": "Indy Survey Tool",
+      "summary": "Introducing Indy Survey Tool, a platform that simplifies companion website creation for survey papers, enables authors to update and explore survey data easily. Users can pinpoint correlations among paper categories through combined filters and correlation matrix visualizations, revealing insights and potential research gaps.",
+      "image": "IndySurvey.png",
+      "link": "/publications#Indy-Survey"
     },
     {
       "title": "What Would a Graph Look Like in This Layout? A Machine Learning Approach to Large Graph Visualization",
-      "summary": "We present a machine learning approach to large graph visualization based on computing the topological similarity of graphs using graph kernels. For a given graph, our approach can show what the graph would look like in different layouts and estimate their corresponding aesthetic metrics.",
+      "summary": "Using graph kernels, we present a machine-learning approach to large graph visualization based on computing graphs' topological similarity. Our approach can show what a given graph would look like in different layouts and estimate its corresponding aesthetic metrics.",
       "image": "GraphLook.png",
-      "link": "/publications"
+      "link": "/publications#GraphML",
+      "position": "50% 50%"
     },
     {
       "title": "An Incremental Layout Method for Visualizing Online Dynamic Graphs",
       "summary": "A novel incremental layout method designed for online dynamic graphs that uses the concept of 'energy' to move nodes with high energy into low energy states. Our resulting visualization maintains readability of the graph structure and is efficient in laying out these changing networks.",
       "image": "Incremental.png",
-      "link": "/publications"
+      "link": "/publicationsIncremental-Layout",
+      "position": "90% 50%"
     }
   ],
   "projects": [
@@ -77,51 +93,171 @@
         {
           "title": "Amoeba: Visual metaphor for discourse forums",
           "image": "Amoeba.png",
-          "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
+          "shortDesc": "Discussion forums allow individuals across the world to express their opinions on a variety of topics. We introduce Amoebas, a visual metaphor for discussion forum threads that allows researchers to examine social interactions, compare thread structure, and make hypotheses about the patterns or trends of these forums.",
           "tags": ["C++", "OpenGL", "OpenCL"],
-          "html": [{ "p": "Still under construction." }]
+          "html": [
+            {
+              "image": {
+                "src": "Amoeba.png",
+                "caption": "An example of an Amoeba. Each circle represents a post. The starting post is placed in the center. Replies to the starting post are called first-level replies are placed around the center. Replies to replies or reply chains create the tendrils of the Amoeba. The Amoebas encode three channels to color. The color of the circle maps to post information, while the tendril’s color maps to the aggregated values of the reply chain. Lastly, the outer skin color map information about the thread.",
+                "width": 540
+              }
+            },
+            {
+              "p": "Discussion forums allow individuals across the world to express their opinions on a variety of topics. Studying these discussion forums provides insight into interesting, trending topics and how conversation and behavior evolve. However, gaining insight from these data sets is challenging due to their large, complex nature. In this paper, we introduce Amoebas, a visual metaphor for discussion forum threads that allows researchers to examine social interactions, compare thread structure, and make hypotheses about the patterns or trends of discussion forums. The Amoebas metaphor provides new classifications for discussion threads that allow for quick identification of patterns. Below, demonstrate an example of a MOOC dataset visualized using the amoeba metaphor. "
+            },
+            {
+              "image": {
+                "src": "figure-game.png",
+                "caption": "Discussion forum from MOOC course on Game Theory. Regions are partition by sub forums. The inner layer is mapped to user’s affiliation in the class, while the outer layer is mapped to thread view count. MOOC discussion forums contain more complex Amoebas than other types of forums. Problem set sub forum has the most threads and the views. Both anonymous and community TAs are found in the Problem set as well. One exception stands out, a thread in general discussion posted by community TA has many anonymous responses"
+              }
+            }
+          ]
         },
         {
-          "title": "DAC",
+          "title": "SetMLVis: Set Visualization for Object Detection",
           "image": "dac.png",
-          "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
+          "shortDesc": "Traditional metrics like average precision and recall may not fully capture performance differences, so the authors advocate for directly comparing models using set visualizations to reveal unique strengths and weaknesses. We developed an interactive system called SetMLVis that addresses the challenges in comparing object detection models by proposing a novel approach using set visualizations for model-to-model comparison.",
           "tags": ["JS", "Svelte", "JupyterLab Widget"],
-          "html": [{ "p": "Still under construction." }]
+          "html": [
+            {
+              "image": {
+                "src": "dac.png",
+                "caption": "Figure A. An example of the SetMLVis system visualizing satellite data",
+                "width": 1024
+              }
+            },
+            {
+              "p": "This work explores the challenges in comparing object detection models and proposes a novel approach using set visualizations to enable model-to-model comparison. Object detection models are crucial across various industries, but selecting the right one for a specific application can be complex due to the multitude of model types and evaluation criteria. Traditional evaluation metrics like average precision and average recall may not fully capture performance differences between models. The proposed methodology involves comparing models directly to each other using set visualizations, which allows for intuitive queries to be made about model behavior and facilitates the identification of unique strengths and weaknesses. We developed an interactive visualization system called SetMLVis and demonstrated its effectiveness compared to traditional visualization methods."
+            },
+            {
+              "materials": {
+                "GitHub": "https://github.com/VisDunneRight/setmlvis",
+                "PyPI": "https://pypi.org/project/setmlvis/",
+                "Video Presentation": "https://www.youtube.com/watch?v=2OGFn_Jle0Y&ab_channel=Voxel51"
+              }
+            }
+          ]
         },
         {
           "title": "Indy Survey Tool",
           "image": "IndySurvey.png",
-          "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
+          "shortDesc": "We introduce Indy Survey Tool, a tool that simplifies the creation of companion websites for survey papers, aiding authors in developing interactive platforms to explore and update survey information easily. By offering combined filters and correlation matrix visualizations, the tool allows users to identify correlations between categorizations of papers, facilitating deeper insights and highlighting potential research gaps.",
           "tags": ["JS", "Svelte"],
-          "html": [{ "p": "Still under construction." }]
+          "html": [
+            {
+              "image": {
+                "src": "indy-teaser-cropped.png",
+                "caption": "Figure A. An example of how the Indy Survey Tool we present was used in recent survey on Immersive Analytics. The left panel (1) lets users filter using a search bar, timeline, and topic selector. The top bar (2) provides information about the survey and how to add new entries. The center (3)  shows a short summary of each included paper. The collapsible visualization panel (4) on the right shows a correlation matrix for two selected dimensions. Interacting with the left and right panels filters the papers displayed in the center.  Upon selection of a paper, a detail view pops up with all of its information (not shown). .",
+                "width": 720
+              }
+            },
+            {
+              "p": "Survey companion websites allow users to explore collected survey information more deeply, as well as update or add entries for papers. These sites can help information stay relevant past the original release date of the survey paper. However, creating and maintaining a website can be laborious and difficult, especially when authors might not be experienced with programming. We introduce Survey Indy tool to help authors develop companion websites for survey papers across diverse fields of study.The tool's core aim is to identify correlations between categorizations of papers. To accomplish this, the tool offers multiple combined filters and correlation matrix visualizations that enable users to explore the data from diverse perspectives. The tool's visualizations, list of papers, and filters are harmoniously integrated and highly responsive, providing users with feedback based on their selections. Identifying correlations in survey papers is a pivotal aspect of research, as it can enable the recognition of common combinations of categorizations within the papers---as well as highlight any omissions. The versatility of Survey Indy tool enables researchers to delve into the correlations between categorizations in survey data, an essential aspect of research that can reveal gaps in the literature and highlight promising areas for future exploration."
+            },
+            {
+              "materials": {
+                "PDF": "https://osf.io/um9gs/download",
+                "Preprint": "https://osf.io/um9gs/",
+                "Supplement": "https://osf.io/tdhqn/",
+                "Code": "https://github.com/VisDunneRight/Indy-Survey-Tool",
+                "DOI": "https://doi.org/10.1109/VIS54172.2023.00038"
+              }
+            }
+          ]
         },
         {
           "title": "Batch Simulation Tool",
-          "image": "JupiterOldvsNew.png",
-          "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
+          "image": "sim_vs_true.svg",
+          "shortDesc": "Acquiring diverse UAV data for predictive tasks is challenging due to laborious and costly real-world data collection, leading to increased reliance on simulators. However, the multitude of available simulators poses challenges, and no comparative evaluation has been conducted regarding their effectiveness in replicating real-world scenarios. We introduce an open-source batch simulation tool to streamline data generation, leveraging real flight data to validate simulated missions.",
           "tags": ["Python", "Bash", "PX4", "ArduPilot"],
-          "html": [{ "p": "Still under construction." }]
+          "html": [
+            {
+              "image": {
+                "src": "sim_vs_true.svg",
+                "caption": "A comparison of ground truth with various simulators supported by the batch tool.  The rows indicate different flight patterns, and the columns are the different simulators and middleware.",
+                "width": 720
+              }
+            },
+            {
+              "p": "Acquiring realistic and varied UAV data has become a central part of many UAV-related predictive tasks. However, creating this dataset is often laborious, with the constant need to reset the flight conditions, and resource-intensive due to the associated costs of drones. Consequently, individuals turn to simulators when a large amount of the data is needed for tasks such as training machine learning techniques.  Yet, many simulators are available, introducing their own challenges, ranging from setup complexities to varying degrees of fidelity in emulating real-world scenarios. Despite the prevalent use of simulators, to the best of our knowledge, no one has compared the effectiveness of said to each other and their capabilities to imitate real-world data. In this work, we endeavor to bridge this gap by evaluating the accuracy of a simulated flight to a real flight while also assessing the performance of different simulators. Additionally, we introduce an open-source batch tool aimed at streamlining the data generation process and facilitating the creation of large datasets, offering support for generating flight paths across multiple simulators. We leverage real flight data from the PX4 flight log repository and produce missions that are then simulated using our batch tool."
+            }
+          ]
         },
         {
           "title": "Multi-Level Maps",
           "image": "mgmap.png",
-          "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
+          "shortDesc": "This work proposes a method for visualizing graphs using multi-level maps to enhance the representation of underlying structures and neighborhood information. It introduces a technique that utilizes graph hierarchies to create sub-graph regions at different zoom levels, employing a spiral placement algorithm to arrange disconnected graph components compactly. ",
           "tags": ["C++", "OpenGL"],
-          "html": [{ "p": "Still under construction." }]
+          "html": [
+            {
+              "image": {
+                "src": "MOOCv4.png",
+                "caption": "Figure A. A MOOC Forum of an Asset Pricing course (left). A zoomed in section of the \"Google hangout\" sub-forum at Level 2 and Level 3 (top right) and the \"Quizzes and Homeworks\" sub-forum at Level 2 (bottom right). The most popular sub-forum sections are \"Quizzes and Homework\", \"Lectures\" and \"General Discussion\"",
+                "width": 720
+              }
+            },
+            {
+              "p": "A single conventional node-link diagram often fails to fully capture a graph's underlying structure, embedded clusters, or neighborhood information. The ability to visually overlay additional information on top of a graph can produce a richer visualization of the graph.  Map metaphors have been used for non-geospatial data due to their intuitive nature and widespread use.    This work presents a method for drawing a graph with superimposed multi-level maps. Our method uses either a provided or derived graph hierarchy to create sub-graph regions of the map at varying zoom levels. We use a spiral placement algorithm to arrange the disconnected components of the graph compactly. Our multi-level map generation algorithm can use any polygon generation technique to create regions if there is a way to identify whether two polygons share an edge. We experiment with different bounding shapes, which are approximate areas of the components to use in the spiral placement algorithm and evaluate their impact on its compactness through a qualitative study. Furthermore, we demonstrate the effectiveness of our method by applying it to graphs that contain an inherent hierarchy, a derived hierarchy, or sets. "
+            },
+            {
+              "image": {
+                "src": "stackv2.png",
+                "caption": "Figure B. A typical day at Stack Overflow. Tag information is used to create a hierarchy. The top eight tags are colored. A zoomed-in section of the border among  Android, Java, and Javascript (top right) shows clear intermixing among these tags with a stronger mix between Java and Android. This provides a striking difference when compared with C++ and Python (bottom right) where only minor mixing occur with the windows tag",
+                "width": 720
+              }
+            }
+          ]
         },
         {
           "title": "Finding Similiarities in DB Queries",
           "image": "SDSS.png",
-          "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
+          "shortDesc": "We looked into how unsupervised learning can be utilized to cluster similar queries together. This can enable database admins and users to understand the most common queries written and where improvement in managing or writing queries can occur.  These types of visualization can help improve the efficiency of databases by pointing out where databases can be restructured to improve queries and make them easier to write.",
           "tags": ["JS", "Python", "MongoDB"],
-          "html": [{ "p": "Still under construction." }]
+          "html": [
+            {
+              "image": {
+                "src": "SDSS.png",
+                "caption": ""
+              }
+            },
+            {
+              "p": "The tool was built to explore queries written to a database. It takes in all queries and uses different unsupervised learning methods to cluster similar queries. At the time of writing, the tool supports UMAP and t-SNE. The similarities are based on how the query is structured, with similar functions supported based on existing literature. "
+            },
+            {
+              "p": "To help render millions of queries, a hexagon heatmap is used to reduce the number of points drawn. The darker the color, the more queries are found at the location. Mousing over shows the number of queries. Selecting a hexagon shows all the queries grouped together, and selecting a second point allows for comparison between the two points."
+            }
+          ]
         }
       ]
     },
     {
       "title": "Web Projects",
-      "summary": "When I find the time (haha), I like to apply my visualization and programming skillset to some interesting side projects.",
+      "summary": "When I find the time (haha), I apply my visualization and programming skillset to some exciting side projects.",
       "entries": [
+        {
+          "title": "Khoury Vis Lab Website",
+          "image": "khouryLabv3.png",
+          "shortDesc": "I created our Khoury vis lab website, which is modeled after this personal site. To make the process of updating the website as easy as possible, the entire website is run using JSON files. Cody Dunne and Daniel Kerrigan have continued to extend the site and provide means to update the JSON file from pull requests, making the automation even better.",
+          "tags": ["JS", "React"],
+          "html": [
+            {
+              "image": {
+                "src": "khouryLabv2.png",
+                "caption": ""
+              }
+            },
+            {
+              "p": "I created our Khoury vis lab website, which is modeled after this personal site. To make the process of updating the website as easy as possible, the entire website is run using JSON files. Cody Dunne and Daniel Kerrigan have continued to extend the site and provide means to update the JSON file from pull requests, making the automation even better."
+            },
+            {
+              "materials": {
+                "Website": "https://vis.khoury.northeastern.edu/",
+                "GitHub": "https://github.com/KhouryVis/khouryvis.github.io"
+              }
+            }
+          ]
+        },
         {
           "title": "3D Color and Option Picker",
           "image": "STLViewer.png",
@@ -143,9 +279,9 @@
             },
             {
               "link": {
-                "text": "For a live example of the code running, please check Jupiter listing:",
-                "url": "https://outofdarts.com/collections/jupiter/products/rival-jupiter-blaster-kit-build-it-yourself",
-                "linkText": "Jupiter Build it yourself"
+                "text": "For a live example of the code running, please check Herja listing:",
+                "url": "https://outofdarts.com/products/herja-3d-parts-hardware-kit?_pos=1&_psq=herja&_ss=e&_v=1.0",
+                "linkText": "Herja 3D Parts + Hardware Kit"
               }
             },
             {
@@ -196,16 +332,16 @@
     },
     {
       "title": "3D design",
-      "summary": "These are some of the 3D design projects I worked on as part of a hobby turned side business. These projects fulfill the same desire to conduct research that my graduate work provides. They allow me to apply my years of research and additive manufacture experience into a new domain.",
+      "summary": "Here are some 3D design projects I worked on as part of a hobby turned side business. These projects scratch the same itch conducting dose. They allow me to combine my years of research and additive manufacturing experience into a new domain.",
       "entries": [
         {
           "title": "Jupiter",
           "image": "JupiterOldvsNew.png",
-          "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right.",
+          "shortDesc": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers. Final version is on the right.",
           "tags": ["CAD", "Fusion 360"],
           "html": [
             {
-              "p": "This project was the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right."
+              "p": "This is the first full blaster I created in collaboration with Luke (Out of Darts). Luke created several prototypes showing the possibility of having a minimized Rival Blaster (Fig. A Left). He asked me to improve the prototype design and create something that he could sell to his customers, shown in Fig. A Right."
             },
             {
               "image": {

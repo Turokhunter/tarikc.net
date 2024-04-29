@@ -8,7 +8,6 @@ export const SectionTitle = styled.h3`
 
 export const Paragraph = styled.p`
   white-space: pre-wrap;
-  padding-left: 1em;
   padding-right: 1em;
 `;
 
@@ -55,7 +54,7 @@ export const CardImage = styled.img`
 `;
 export const CardHeader = styled.h4`
   position: relative;
-  padding: 10px 4px;
+  padding: 10px 4px 2px 4px;
   font-weight: bold;
 `;
 
@@ -65,7 +64,7 @@ export const CardHeaderSmall = styled.h5`
 `;
 export const CardBody = styled.p`
   position: relative;
-  padding: 4px;
+  padding: 0px 4px 14px 4px;
   color: #212121;
 `;
 export const CardFooter = styled.div`
