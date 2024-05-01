@@ -125,7 +125,7 @@ const Projects = ({ user }) => {
       {user.projects.map((section) => (
         <div key={section.title}>
           <Row>
-            <h1>{section.title}</h1>
+            <h1 id={section.id}>{section.title}</h1>
           </Row>
           <Row>
             <Paragraph>{section.summary}</Paragraph>

@@ -10,7 +10,7 @@
   display: flex;
   align-items: flex-end;
   min-width: 300px;
-  height: 320px;
+  height: 360px;
   max-width: 36ch;
   border-radius: 1rem;
   overflow: hidden;
@@ -40,6 +40,11 @@
 
 .card-p {
   color: rgba(0, 0, 0, 0.75);
+}
+@media screen and (max-width: 992px) {
+  .card-high {
+    height: 600px;
+  }
 }
 
 @media (hover) {

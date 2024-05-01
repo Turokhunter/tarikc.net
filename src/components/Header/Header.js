@@ -46,12 +46,12 @@ const items = [
         path: "/projects#research",
       },
       {
-        name: "3D Design",
-        path: "/projects#design",
+        name: "Web projects",
+        path: "/projects#web-projects",
       },
       {
-        name: "Side Work",
-        path: "/projects#side",
+        name: "3D Design",
+        path: "/projects#3d-design",
       },
     ],
   },

@@ -88,6 +88,7 @@
   "projects": [
     {
       "title": "Research",
+      "id": "research",
       "summary": "My research spans networks, information visualization, and algorithms. Specifically, it focuses on the implementation of new algorithms to improve visual understanding and analysis. The projects below are part of my Master's and Ph.D. research. Not all of these projects became papers but nonetheless have interesting elements worth sharing.",
       "entries": [
         {
@@ -233,6 +234,7 @@
     },
     {
       "title": "Web Projects",
+      "id": "web-projects",
       "summary": "When I find the time (haha), I apply my visualization and programming skillset to some exciting side projects.",
       "entries": [
         {
@@ -332,6 +334,7 @@
     },
     {
       "title": "3D design",
+      "id": "3d-design",
       "summary": "Here are some 3D design projects I worked on as part of a hobby turned side business. These projects scratch the same itch conducting dose. They allow me to combine my years of research and additive manufacturing experience into a new domain.",
       "entries": [
         {
